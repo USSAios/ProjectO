@@ -20,7 +20,7 @@ class UPrimitiveComponent;
 struct FHitResult;
 
 // ********** Begin Class APO_Object ***************************************************************
-#define FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_Object_PO_Object_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_Object_PO_Object_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execOnMeshHit); \
 	DECLARE_FUNCTION(execSetHovered); \
 	DECLARE_FUNCTION(execOnHoverEnd); \
@@ -30,7 +30,7 @@ struct FHitResult;
 struct Z_Construct_UClass_APO_Object_Statics;
 PROJECTO_API UClass* Z_Construct_UClass_APO_Object_NoRegister();
 
-#define FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_Object_PO_Object_h_15_INCLASS_NO_PURE_DECLS \
+#define FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_Object_PO_Object_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAPO_Object(); \
 	friend struct ::Z_Construct_UClass_APO_Object_Statics; \
@@ -41,7 +41,7 @@ public: \
 	DECLARE_SERIALIZER(APO_Object)
 
 
-#define FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_Object_PO_Object_h_15_ENHANCED_CONSTRUCTORS \
+#define FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_Object_PO_Object_h_15_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	APO_Object(APO_Object&&) = delete; \
 	APO_Object(const APO_Object&) = delete; \
@@ -51,13 +51,13 @@ public: \
 	NO_API virtual ~APO_Object();
 
 
-#define FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_Object_PO_Object_h_12_PROLOG
-#define FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_Object_PO_Object_h_15_GENERATED_BODY \
+#define FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_Object_PO_Object_h_12_PROLOG
+#define FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_Object_PO_Object_h_15_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_Object_PO_Object_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_Object_PO_Object_h_15_INCLASS_NO_PURE_DECLS \
-	FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_Object_PO_Object_h_15_ENHANCED_CONSTRUCTORS \
+	FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_Object_PO_Object_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_Object_PO_Object_h_15_INCLASS_NO_PURE_DECLS \
+	FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_Object_PO_Object_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -67,6 +67,6 @@ class APO_Object;
 // ********** End Class APO_Object *****************************************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_Object_PO_Object_h
+#define CURRENT_FILE_ID FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_Object_PO_Object_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

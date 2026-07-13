@@ -1,3 +1,5 @@
-2026/07/11-13:10:44.404 5a40 Reusing MANIFEST E:\Git\MarbleRace\ProjectO\ProjectO\Saved\webcache_6613\Default\Local Storage\leveldb/MANIFEST-000001
-2026/07/11-13:10:44.410 5a40 Recovering log #21
-2026/07/11-13:10:44.413 5a40 Reusing old log E:\Git\MarbleRace\ProjectO\ProjectO\Saved\webcache_6613\Default\Local Storage\leveldb/000021.log 
+2026/07/13-14:23:11.778 62fc Reusing MANIFEST E:\Git\ProjectO\ProjectO\ProjectO\Saved\webcache_6613\Default\Local Storage\leveldb/MANIFEST-000001
+2026/07/13-14:23:11.787 62fc Recovering log #24
+2026/07/13-14:23:11.788 62fc Level-0 table #27: started
+2026/07/13-14:23:11.799 62fc Level-0 table #27: 67601 bytes OK
+2026/07/13-14:23:11.805 62fc Delete type=0 #24

@@ -20,7 +20,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 struct Z_Construct_UClass_AProjectOGameMode_Statics;
 PROJECTO_API UClass* Z_Construct_UClass_AProjectOGameMode_NoRegister();
 
-#define FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_ProjectOGameMode_h_17_INCLASS_NO_PURE_DECLS \
+#define FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_ProjectOGameMode_h_17_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAProjectOGameMode(); \
 	friend struct ::Z_Construct_UClass_AProjectOGameMode_Statics; \
@@ -31,7 +31,7 @@ public: \
 	DECLARE_SERIALIZER(AProjectOGameMode)
 
 
-#define FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_ProjectOGameMode_h_17_ENHANCED_CONSTRUCTORS \
+#define FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_ProjectOGameMode_h_17_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	AProjectOGameMode(AProjectOGameMode&&) = delete; \
 	AProjectOGameMode(const AProjectOGameMode&) = delete; \
@@ -41,12 +41,12 @@ public: \
 	NO_API virtual ~AProjectOGameMode();
 
 
-#define FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_ProjectOGameMode_h_14_PROLOG
-#define FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_ProjectOGameMode_h_17_GENERATED_BODY \
+#define FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_ProjectOGameMode_h_14_PROLOG
+#define FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_ProjectOGameMode_h_17_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_ProjectOGameMode_h_17_INCLASS_NO_PURE_DECLS \
-	FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_ProjectOGameMode_h_17_ENHANCED_CONSTRUCTORS \
+	FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_ProjectOGameMode_h_17_INCLASS_NO_PURE_DECLS \
+	FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_ProjectOGameMode_h_17_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -56,6 +56,6 @@ class AProjectOGameMode;
 // ********** End Class AProjectOGameMode **********************************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_ProjectOGameMode_h
+#define CURRENT_FILE_ID FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_ProjectOGameMode_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

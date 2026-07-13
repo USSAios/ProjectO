@@ -17,14 +17,14 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 // ********** Begin Class AProjectOPlayerController ************************************************
-#define FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_ProjectOPlayerController_h_26_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_ProjectOPlayerController_h_26_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execShowGameOver);
 
 
 struct Z_Construct_UClass_AProjectOPlayerController_Statics;
 PROJECTO_API UClass* Z_Construct_UClass_AProjectOPlayerController_NoRegister();
 
-#define FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_ProjectOPlayerController_h_26_INCLASS_NO_PURE_DECLS \
+#define FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_ProjectOPlayerController_h_26_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAProjectOPlayerController(); \
 	friend struct ::Z_Construct_UClass_AProjectOPlayerController_Statics; \
@@ -35,7 +35,7 @@ public: \
 	DECLARE_SERIALIZER(AProjectOPlayerController)
 
 
-#define FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_ProjectOPlayerController_h_26_ENHANCED_CONSTRUCTORS \
+#define FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_ProjectOPlayerController_h_26_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	AProjectOPlayerController(AProjectOPlayerController&&) = delete; \
 	AProjectOPlayerController(const AProjectOPlayerController&) = delete; \
@@ -45,13 +45,13 @@ public: \
 	NO_API virtual ~AProjectOPlayerController();
 
 
-#define FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_ProjectOPlayerController_h_23_PROLOG
-#define FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_ProjectOPlayerController_h_26_GENERATED_BODY \
+#define FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_ProjectOPlayerController_h_23_PROLOG
+#define FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_ProjectOPlayerController_h_26_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_ProjectOPlayerController_h_26_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_ProjectOPlayerController_h_26_INCLASS_NO_PURE_DECLS \
-	FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_ProjectOPlayerController_h_26_ENHANCED_CONSTRUCTORS \
+	FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_ProjectOPlayerController_h_26_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_ProjectOPlayerController_h_26_INCLASS_NO_PURE_DECLS \
+	FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_ProjectOPlayerController_h_26_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -61,6 +61,6 @@ class AProjectOPlayerController;
 // ********** End Class AProjectOPlayerController **************************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_ProjectOPlayerController_h
+#define CURRENT_FILE_ID FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_ProjectOPlayerController_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

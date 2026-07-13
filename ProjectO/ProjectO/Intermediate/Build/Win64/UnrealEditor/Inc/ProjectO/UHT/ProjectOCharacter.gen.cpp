@@ -24,6 +24,7 @@ ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FHitResult();
 ENHANCEDINPUT_API UClass* Z_Construct_UClass_UInputAction_NoRegister();
 ENHANCEDINPUT_API UClass* Z_Construct_UClass_UInputMappingContext_NoRegister();
 GAMEPLAYABILITIES_API UClass* Z_Construct_UClass_UAbilitySystemComponent_NoRegister();
+GAMEPLAYABILITIES_API UClass* Z_Construct_UClass_UGameplayAbility_NoRegister();
 GAMEPLAYABILITIES_API UClass* Z_Construct_UClass_UGameplayEffect_NoRegister();
 PROJECTO_API UClass* Z_Construct_UClass_APO_Object_NoRegister();
 PROJECTO_API UClass* Z_Construct_UClass_AProjectOCharacter();
@@ -140,6 +141,56 @@ DEFINE_FUNCTION(AProjectOCharacter::execBroadcastInitialValues)
 	P_NATIVE_END;
 }
 // ********** End Class AProjectOCharacter Function BroadcastInitialValues *************************
+
+// ********** Begin Class AProjectOCharacter Function GetObject ************************************
+struct Z_Construct_UFunction_AProjectOCharacter_GetObject_Statics
+{
+	struct ProjectOCharacter_eventGetObject_Parms
+	{
+		APO_Object* ReturnValue;
+	};
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "ProjectOCharacter.h" },
+	};
+#endif // WITH_METADATA
+
+// ********** Begin Function GetObject constinit property declarations *****************************
+	static const UECodeGen_Private::FObjectPropertyParams NewProp_ReturnValue;
+	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+// ********** End Function GetObject constinit property declarations *******************************
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+
+// ********** Begin Function GetObject Property Definitions ****************************************
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AProjectOCharacter_GetObject_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ProjectOCharacter_eventGetObject_Parms, ReturnValue), Z_Construct_UClass_APO_Object_NoRegister, METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AProjectOCharacter_GetObject_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AProjectOCharacter_GetObject_Statics::NewProp_ReturnValue,
+};
+static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_AProjectOCharacter_GetObject_Statics::PropPointers) < 2048);
+// ********** End Function GetObject Property Definitions ******************************************
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AProjectOCharacter_GetObject_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_AProjectOCharacter, nullptr, "GetObject", 	Z_Construct_UFunction_AProjectOCharacter_GetObject_Statics::PropPointers, 
+	UE_ARRAY_COUNT(Z_Construct_UFunction_AProjectOCharacter_GetObject_Statics::PropPointers), 
+sizeof(Z_Construct_UFunction_AProjectOCharacter_GetObject_Statics::ProjectOCharacter_eventGetObject_Parms),
+RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x54020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_AProjectOCharacter_GetObject_Statics::Function_MetaDataParams), Z_Construct_UFunction_AProjectOCharacter_GetObject_Statics::Function_MetaDataParams)},  };
+static_assert(sizeof(Z_Construct_UFunction_AProjectOCharacter_GetObject_Statics::ProjectOCharacter_eventGetObject_Parms) < MAX_uint16);
+UFunction* Z_Construct_UFunction_AProjectOCharacter_GetObject()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_AProjectOCharacter_GetObject_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(AProjectOCharacter::execGetObject)
+{
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	*(APO_Object**)Z_Param__Result=P_THIS->GetObject();
+	P_NATIVE_END;
+}
+// ********** End Class AProjectOCharacter Function GetObject **************************************
 
 // ********** Begin Class AProjectOCharacter Function OnEnemyOverlap *******************************
 struct Z_Construct_UFunction_AProjectOCharacter_OnEnemyOverlap_Statics
@@ -412,7 +463,17 @@ struct Z_Construct_UClass_AProjectOCharacter_Statics
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_AbilitySystemComponent_MetaData[] = {
 		{ "Category", "GAS" },
+#if !UE_BUILD_SHIPPING
+		{ "Comment", "/** GAS **/" },
+#endif
 		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "ProjectOCharacter.h" },
+#if !UE_BUILD_SHIPPING
+		{ "ToolTip", "GAS *" },
+#endif
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_AbilityArray_MetaData[] = {
+		{ "Category", "GAS|Abilities" },
 		{ "ModuleRelativePath", "ProjectOCharacter.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_CharacterSet_MetaData[] = {
@@ -436,6 +497,7 @@ struct Z_Construct_UClass_AProjectOCharacter_Statics
 		{ "ModuleRelativePath", "ProjectOCharacter.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_GrabbedObject_MetaData[] = {
+		{ "Category", "ProjectOCharacter" },
 		{ "ModuleRelativePath", "ProjectOCharacter.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_GrabDistance_MetaData[] = {
@@ -501,6 +563,8 @@ struct Z_Construct_UClass_AProjectOCharacter_Statics
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_TopDownCameraComponent;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_CameraBoom;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_AbilitySystemComponent;
+	static const UECodeGen_Private::FClassPropertyParams NewProp_AbilityArray_Inner;
+	static const UECodeGen_Private::FArrayPropertyParams NewProp_AbilityArray;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_CharacterSet;
 	static const UECodeGen_Private::FClassPropertyParams NewProp_DamageEffectClass;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_PhysicsHandle;
@@ -523,6 +587,7 @@ struct Z_Construct_UClass_AProjectOCharacter_Statics
 // ********** End Class AProjectOCharacter constinit property declarations *************************
 	static constexpr UE::CodeGen::FClassNativeFunction Funcs[] = {
 		{ .NameUTF8 = UTF8TEXT("BroadcastInitialValues"), .Pointer = &AProjectOCharacter::execBroadcastInitialValues },
+		{ .NameUTF8 = UTF8TEXT("GetObject"), .Pointer = &AProjectOCharacter::execGetObject },
 		{ .NameUTF8 = UTF8TEXT("OnEnemyOverlap"), .Pointer = &AProjectOCharacter::execOnEnemyOverlap },
 		{ .NameUTF8 = UTF8TEXT("Skill1"), .Pointer = &AProjectOCharacter::execSkill1 },
 		{ .NameUTF8 = UTF8TEXT("Skill2"), .Pointer = &AProjectOCharacter::execSkill2 },
@@ -531,6 +596,7 @@ struct Z_Construct_UClass_AProjectOCharacter_Statics
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
 		{ &Z_Construct_UFunction_AProjectOCharacter_BroadcastInitialValues, "BroadcastInitialValues" }, // 3207575430
+		{ &Z_Construct_UFunction_AProjectOCharacter_GetObject, "GetObject" }, // 655130044
 		{ &Z_Construct_UFunction_AProjectOCharacter_OnEnemyOverlap, "OnEnemyOverlap" }, // 987722270
 		{ &Z_Construct_UFunction_AProjectOCharacter_Skill1, "Skill1" }, // 508841763
 		{ &Z_Construct_UFunction_AProjectOCharacter_Skill2, "Skill2" }, // 913479268
@@ -547,10 +613,12 @@ struct Z_Construct_UClass_AProjectOCharacter_Statics
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AProjectOCharacter_Statics::NewProp_TopDownCameraComponent = { "TopDownCameraComponent", nullptr, (EPropertyFlags)0x01440000000a001d, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AProjectOCharacter, TopDownCameraComponent), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_TopDownCameraComponent_MetaData), NewProp_TopDownCameraComponent_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AProjectOCharacter_Statics::NewProp_CameraBoom = { "CameraBoom", nullptr, (EPropertyFlags)0x01440000000a001d, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AProjectOCharacter, CameraBoom), Z_Construct_UClass_USpringArmComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_CameraBoom_MetaData), NewProp_CameraBoom_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AProjectOCharacter_Statics::NewProp_AbilitySystemComponent = { "AbilitySystemComponent", nullptr, (EPropertyFlags)0x01240800000a001d, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AProjectOCharacter, AbilitySystemComponent), Z_Construct_UClass_UAbilitySystemComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_AbilitySystemComponent_MetaData), NewProp_AbilitySystemComponent_MetaData) };
+const UECodeGen_Private::FClassPropertyParams Z_Construct_UClass_AProjectOCharacter_Statics::NewProp_AbilityArray_Inner = { "AbilityArray", nullptr, (EPropertyFlags)0x0004000000000000, UECodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UClass_UClass_NoRegister, Z_Construct_UClass_UGameplayAbility_NoRegister, METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AProjectOCharacter_Statics::NewProp_AbilityArray = { "AbilityArray", nullptr, (EPropertyFlags)0x0024080000010001, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AProjectOCharacter, AbilityArray), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_AbilityArray_MetaData), NewProp_AbilityArray_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AProjectOCharacter_Statics::NewProp_CharacterSet = { "CharacterSet", nullptr, (EPropertyFlags)0x01240800000a001d, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AProjectOCharacter, CharacterSet), Z_Construct_UClass_UCharacterAttributeSet_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_CharacterSet_MetaData), NewProp_CharacterSet_MetaData) };
 const UECodeGen_Private::FClassPropertyParams Z_Construct_UClass_AProjectOCharacter_Statics::NewProp_DamageEffectClass = { "DamageEffectClass", nullptr, (EPropertyFlags)0x0024080000010001, UECodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AProjectOCharacter, DamageEffectClass), Z_Construct_UClass_UClass_NoRegister, Z_Construct_UClass_UGameplayEffect_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_DamageEffectClass_MetaData), NewProp_DamageEffectClass_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AProjectOCharacter_Statics::NewProp_PhysicsHandle = { "PhysicsHandle", nullptr, (EPropertyFlags)0x01240800000a0009, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AProjectOCharacter, PhysicsHandle), Z_Construct_UClass_UPhysicsHandleComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_PhysicsHandle_MetaData), NewProp_PhysicsHandle_MetaData) };
-const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AProjectOCharacter_Statics::NewProp_GrabbedObject = { "GrabbedObject", nullptr, (EPropertyFlags)0x0124080000000000, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AProjectOCharacter, GrabbedObject), Z_Construct_UClass_APO_Object_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_GrabbedObject_MetaData), NewProp_GrabbedObject_MetaData) };
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AProjectOCharacter_Statics::NewProp_GrabbedObject = { "GrabbedObject", nullptr, (EPropertyFlags)0x0124080000020001, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AProjectOCharacter, GrabbedObject), Z_Construct_UClass_APO_Object_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_GrabbedObject_MetaData), NewProp_GrabbedObject_MetaData) };
 const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AProjectOCharacter_Statics::NewProp_GrabDistance = { "GrabDistance", nullptr, (EPropertyFlags)0x0020080000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AProjectOCharacter, GrabDistance), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_GrabDistance_MetaData), NewProp_GrabDistance_MetaData) };
 const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AProjectOCharacter_Statics::NewProp_GrabHeight = { "GrabHeight", nullptr, (EPropertyFlags)0x0020080000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AProjectOCharacter, GrabHeight), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_GrabHeight_MetaData), NewProp_GrabHeight_MetaData) };
 const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AProjectOCharacter_Statics::NewProp_ThrowForce = { "ThrowForce", nullptr, (EPropertyFlags)0x0020080000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AProjectOCharacter, ThrowForce), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_ThrowForce_MetaData), NewProp_ThrowForce_MetaData) };
@@ -569,6 +637,8 @@ const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AProjectO
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AProjectOCharacter_Statics::NewProp_TopDownCameraComponent,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AProjectOCharacter_Statics::NewProp_CameraBoom,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AProjectOCharacter_Statics::NewProp_AbilitySystemComponent,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AProjectOCharacter_Statics::NewProp_AbilityArray_Inner,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AProjectOCharacter_Statics::NewProp_AbilityArray,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AProjectOCharacter_Statics::NewProp_CharacterSet,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AProjectOCharacter_Statics::NewProp_DamageEffectClass,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AProjectOCharacter_Statics::NewProp_PhysicsHandle,
@@ -628,15 +698,15 @@ AProjectOCharacter::~AProjectOCharacter() {}
 // ********** End Class AProjectOCharacter *********************************************************
 
 // ********** Begin Registration *******************************************************************
-struct Z_CompiledInDeferFile_FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_ProjectOCharacter_h__Script_ProjectO_Statics
+struct Z_CompiledInDeferFile_FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_ProjectOCharacter_h__Script_ProjectO_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AProjectOCharacter, AProjectOCharacter::StaticClass, TEXT("AProjectOCharacter"), &Z_Registration_Info_UClass_AProjectOCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AProjectOCharacter), 2049200126U) },
+		{ Z_Construct_UClass_AProjectOCharacter, AProjectOCharacter::StaticClass, TEXT("AProjectOCharacter"), &Z_Registration_Info_UClass_AProjectOCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AProjectOCharacter), 181691719U) },
 	};
-}; // Z_CompiledInDeferFile_FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_ProjectOCharacter_h__Script_ProjectO_Statics 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_ProjectOCharacter_h__Script_ProjectO_553317131{
+}; // Z_CompiledInDeferFile_FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_ProjectOCharacter_h__Script_ProjectO_Statics 
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_ProjectOCharacter_h__Script_ProjectO_4045166429{
 	TEXT("/Script/ProjectO"),
-	Z_CompiledInDeferFile_FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_ProjectOCharacter_h__Script_ProjectO_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_ProjectOCharacter_h__Script_ProjectO_Statics::ClassInfo),
+	Z_CompiledInDeferFile_FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_ProjectOCharacter_h__Script_ProjectO_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_ProjectOCharacter_h__Script_ProjectO_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0,
 };

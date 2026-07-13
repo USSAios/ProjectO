@@ -17,15 +17,15 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 // ********** Begin Class UStrategyUI **************************************************************
-#define FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_Variant_Strategy_UI_StrategyUI_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_Variant_Strategy_UI_StrategyUI_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execGetSelectedUnitsCount);
 
 
-#define FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_Variant_Strategy_UI_StrategyUI_h_16_CALLBACK_WRAPPERS
+#define FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_Variant_Strategy_UI_StrategyUI_h_16_CALLBACK_WRAPPERS
 struct Z_Construct_UClass_UStrategyUI_Statics;
 PROJECTO_API UClass* Z_Construct_UClass_UStrategyUI_NoRegister();
 
-#define FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_Variant_Strategy_UI_StrategyUI_h_16_INCLASS_NO_PURE_DECLS \
+#define FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_Variant_Strategy_UI_StrategyUI_h_16_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUStrategyUI(); \
 	friend struct ::Z_Construct_UClass_UStrategyUI_Statics; \
@@ -36,7 +36,7 @@ public: \
 	DECLARE_SERIALIZER(UStrategyUI)
 
 
-#define FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_Variant_Strategy_UI_StrategyUI_h_16_ENHANCED_CONSTRUCTORS \
+#define FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_Variant_Strategy_UI_StrategyUI_h_16_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UStrategyUI(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	/** Deleted move- and copy-constructors, should never be used */ \
@@ -48,14 +48,14 @@ public: \
 	NO_API virtual ~UStrategyUI();
 
 
-#define FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_Variant_Strategy_UI_StrategyUI_h_13_PROLOG
-#define FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_Variant_Strategy_UI_StrategyUI_h_16_GENERATED_BODY \
+#define FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_Variant_Strategy_UI_StrategyUI_h_13_PROLOG
+#define FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_Variant_Strategy_UI_StrategyUI_h_16_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_Variant_Strategy_UI_StrategyUI_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_Variant_Strategy_UI_StrategyUI_h_16_CALLBACK_WRAPPERS \
-	FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_Variant_Strategy_UI_StrategyUI_h_16_INCLASS_NO_PURE_DECLS \
-	FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_Variant_Strategy_UI_StrategyUI_h_16_ENHANCED_CONSTRUCTORS \
+	FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_Variant_Strategy_UI_StrategyUI_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_Variant_Strategy_UI_StrategyUI_h_16_CALLBACK_WRAPPERS \
+	FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_Variant_Strategy_UI_StrategyUI_h_16_INCLASS_NO_PURE_DECLS \
+	FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_Variant_Strategy_UI_StrategyUI_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -65,6 +65,6 @@ class UStrategyUI;
 // ********** End Class UStrategyUI ****************************************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_Variant_Strategy_UI_StrategyUI_h
+#define CURRENT_FILE_ID FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_Variant_Strategy_UI_StrategyUI_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -179,15 +179,15 @@ APO_DeathEffect::~APO_DeathEffect() {}
 // ********** End Class APO_DeathEffect ************************************************************
 
 // ********** Begin Registration *******************************************************************
-struct Z_CompiledInDeferFile_FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_Enemy_PO_DeathEffect_h__Script_ProjectO_Statics
+struct Z_CompiledInDeferFile_FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_Enemy_PO_DeathEffect_h__Script_ProjectO_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
 		{ Z_Construct_UClass_APO_DeathEffect, APO_DeathEffect::StaticClass, TEXT("APO_DeathEffect"), &Z_Registration_Info_UClass_APO_DeathEffect, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(APO_DeathEffect), 1575026657U) },
 	};
-}; // Z_CompiledInDeferFile_FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_Enemy_PO_DeathEffect_h__Script_ProjectO_Statics 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_Enemy_PO_DeathEffect_h__Script_ProjectO_1663758182{
+}; // Z_CompiledInDeferFile_FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_Enemy_PO_DeathEffect_h__Script_ProjectO_Statics 
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_Enemy_PO_DeathEffect_h__Script_ProjectO_1663758182{
 	TEXT("/Script/ProjectO"),
-	Z_CompiledInDeferFile_FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_Enemy_PO_DeathEffect_h__Script_ProjectO_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_Enemy_PO_DeathEffect_h__Script_ProjectO_Statics::ClassInfo),
+	Z_CompiledInDeferFile_FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_Enemy_PO_DeathEffect_h__Script_ProjectO_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_Enemy_PO_DeathEffect_h__Script_ProjectO_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0,
 };

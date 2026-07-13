@@ -1,12 +1,12 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "e:\\git\\marblerace\\projecto\\projecto\\source\\projecto\\variant_strategy\\strategyunit.cpp",
+        "Source": "e:\\git\\projecto\\projecto\\projecto\\source\\projecto\\variant_strategy\\strategyunit.cpp",
         "ProvidedModule": "",
-        "PCH": "e:\\git\\marblerace\\projecto\\projecto\\intermediate\\build\\win64\\x64\\projectoeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "PCH": "e:\\git\\projecto\\projecto\\projecto\\intermediate\\build\\win64\\x64\\projectoeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
         "Includes": [
-            "e:\\git\\marblerace\\projecto\\projecto\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\projecto\\definitions.projecto.h",
-            "e:\\git\\marblerace\\projecto\\projecto\\source\\projecto\\variant_strategy\\strategyunit.h",
+            "e:\\git\\projecto\\projecto\\projecto\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\projecto\\definitions.projecto.h",
+            "e:\\git\\projecto\\projecto\\projecto\\source\\projecto\\variant_strategy\\strategyunit.h",
             "e:\\unreal\\ue_5.7\\engine\\source\\runtime\\engine\\classes\\gameframework\\character.h",
             "e:\\unreal\\ue_5.7\\engine\\source\\runtime\\engine\\classes\\gameframework\\charactermovementreplication.h",
             "e:\\unreal\\ue_5.7\\engine\\source\\runtime\\net\\core\\public\\net\\core\\nettoken\\nettokenexportcontext.h",
@@ -29,7 +29,7 @@
             "e:\\unreal\\ue_5.7\\engine\\source\\runtime\\engine\\public\\visuallogger\\visualloggerdebugsnapshotinterface.h",
             "e:\\unreal\\ue_5.7\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\visualloggerdebugsnapshotinterface.generated.h",
             "e:\\unreal\\ue_5.7\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\aimodule\\uht\\aicontroller.generated.h",
-            "e:\\git\\marblerace\\projecto\\projecto\\intermediate\\build\\win64\\unrealeditor\\inc\\projecto\\uht\\strategyunit.generated.h",
+            "e:\\git\\projecto\\projecto\\projecto\\intermediate\\build\\win64\\unrealeditor\\inc\\projecto\\uht\\strategyunit.generated.h",
             "e:\\unreal\\ue_5.7\\engine\\source\\runtime\\engine\\classes\\gameframework\\charactermovementcomponent.h",
             "e:\\unreal\\ue_5.7\\engine\\source\\runtime\\engine\\classes\\ai\\navigation\\navigationavoidancetypes.h",
             "e:\\unreal\\ue_5.7\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\navigationavoidancetypes.generated.h",

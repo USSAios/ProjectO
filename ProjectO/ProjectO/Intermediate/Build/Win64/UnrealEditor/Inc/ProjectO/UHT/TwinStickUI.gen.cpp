@@ -288,15 +288,15 @@ UTwinStickUI::~UTwinStickUI() {}
 // ********** End Class UTwinStickUI ***************************************************************
 
 // ********** Begin Registration *******************************************************************
-struct Z_CompiledInDeferFile_FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_Variant_TwinStick_UI_TwinStickUI_h__Script_ProjectO_Statics
+struct Z_CompiledInDeferFile_FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_Variant_TwinStick_UI_TwinStickUI_h__Script_ProjectO_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
 		{ Z_Construct_UClass_UTwinStickUI, UTwinStickUI::StaticClass, TEXT("UTwinStickUI"), &Z_Registration_Info_UClass_UTwinStickUI, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UTwinStickUI), 690319890U) },
 	};
-}; // Z_CompiledInDeferFile_FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_Variant_TwinStick_UI_TwinStickUI_h__Script_ProjectO_Statics 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_Variant_TwinStick_UI_TwinStickUI_h__Script_ProjectO_3827693085{
+}; // Z_CompiledInDeferFile_FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_Variant_TwinStick_UI_TwinStickUI_h__Script_ProjectO_Statics 
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_Variant_TwinStick_UI_TwinStickUI_h__Script_ProjectO_3827693085{
 	TEXT("/Script/ProjectO"),
-	Z_CompiledInDeferFile_FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_Variant_TwinStick_UI_TwinStickUI_h__Script_ProjectO_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_Variant_TwinStick_UI_TwinStickUI_h__Script_ProjectO_Statics::ClassInfo),
+	Z_CompiledInDeferFile_FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_Variant_TwinStick_UI_TwinStickUI_h__Script_ProjectO_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_Variant_TwinStick_UI_TwinStickUI_h__Script_ProjectO_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0,
 };

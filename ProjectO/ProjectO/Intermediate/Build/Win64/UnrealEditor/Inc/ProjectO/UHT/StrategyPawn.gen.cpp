@@ -147,15 +147,15 @@ AStrategyPawn::~AStrategyPawn() {}
 // ********** End Class AStrategyPawn **************************************************************
 
 // ********** Begin Registration *******************************************************************
-struct Z_CompiledInDeferFile_FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_Variant_Strategy_StrategyPawn_h__Script_ProjectO_Statics
+struct Z_CompiledInDeferFile_FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_Variant_Strategy_StrategyPawn_h__Script_ProjectO_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
 		{ Z_Construct_UClass_AStrategyPawn, AStrategyPawn::StaticClass, TEXT("AStrategyPawn"), &Z_Registration_Info_UClass_AStrategyPawn, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AStrategyPawn), 1137066716U) },
 	};
-}; // Z_CompiledInDeferFile_FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_Variant_Strategy_StrategyPawn_h__Script_ProjectO_Statics 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_Variant_Strategy_StrategyPawn_h__Script_ProjectO_3680914860{
+}; // Z_CompiledInDeferFile_FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_Variant_Strategy_StrategyPawn_h__Script_ProjectO_Statics 
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_Variant_Strategy_StrategyPawn_h__Script_ProjectO_3680914860{
 	TEXT("/Script/ProjectO"),
-	Z_CompiledInDeferFile_FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_Variant_Strategy_StrategyPawn_h__Script_ProjectO_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_Variant_Strategy_StrategyPawn_h__Script_ProjectO_Statics::ClassInfo),
+	Z_CompiledInDeferFile_FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_Variant_Strategy_StrategyPawn_h__Script_ProjectO_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_Variant_Strategy_StrategyPawn_h__Script_ProjectO_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0,
 };

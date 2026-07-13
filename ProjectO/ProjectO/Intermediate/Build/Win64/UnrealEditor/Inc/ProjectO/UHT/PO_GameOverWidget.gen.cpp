@@ -121,15 +121,15 @@ UPO_GameOverWidget::~UPO_GameOverWidget() {}
 // ********** End Class UPO_GameOverWidget *********************************************************
 
 // ********** Begin Registration *******************************************************************
-struct Z_CompiledInDeferFile_FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_UI_PO_GameOverWidget_h__Script_ProjectO_Statics
+struct Z_CompiledInDeferFile_FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_UI_PO_GameOverWidget_h__Script_ProjectO_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
 		{ Z_Construct_UClass_UPO_GameOverWidget, UPO_GameOverWidget::StaticClass, TEXT("UPO_GameOverWidget"), &Z_Registration_Info_UClass_UPO_GameOverWidget, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UPO_GameOverWidget), 1039027515U) },
 	};
-}; // Z_CompiledInDeferFile_FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_UI_PO_GameOverWidget_h__Script_ProjectO_Statics 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_UI_PO_GameOverWidget_h__Script_ProjectO_1256639518{
+}; // Z_CompiledInDeferFile_FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_UI_PO_GameOverWidget_h__Script_ProjectO_Statics 
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_UI_PO_GameOverWidget_h__Script_ProjectO_1256639518{
 	TEXT("/Script/ProjectO"),
-	Z_CompiledInDeferFile_FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_UI_PO_GameOverWidget_h__Script_ProjectO_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_UI_PO_GameOverWidget_h__Script_ProjectO_Statics::ClassInfo),
+	Z_CompiledInDeferFile_FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_UI_PO_GameOverWidget_h__Script_ProjectO_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_UI_PO_GameOverWidget_h__Script_ProjectO_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0,
 };

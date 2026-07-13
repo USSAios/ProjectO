@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"E:\\Git\\MarbleRace\\ProjectO\\ProjectO\\Source\\ProjectO\\ProjectO.Build.cs",
-		"E:\\Git\\MarbleRace\\ProjectO\\ProjectO\\Source\\ProjectO.Target.cs",
-		"E:\\Git\\MarbleRace\\ProjectO\\ProjectO\\Source\\ProjectOEditor.Target.cs"
+		"E:\\Git\\ProjectO\\ProjectO\\ProjectO\\Source\\ProjectO\\ProjectO.Build.cs",
+		"E:\\Git\\ProjectO\\ProjectO\\ProjectO\\Source\\ProjectO.Target.cs",
+		"E:\\Git\\ProjectO\\ProjectO\\ProjectO\\Source\\ProjectOEditor.Target.cs"
 	],
 	"EngineVersion": "5.7.4"
 }

@@ -20,7 +20,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 struct Z_Construct_UClass_APO_AIController_Statics;
 PROJECTO_API UClass* Z_Construct_UClass_APO_AIController_NoRegister();
 
-#define FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_Enemy_PO_AIController_h_17_INCLASS_NO_PURE_DECLS \
+#define FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_Enemy_PO_AIController_h_17_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAPO_AIController(); \
 	friend struct ::Z_Construct_UClass_APO_AIController_Statics; \
@@ -31,7 +31,7 @@ public: \
 	DECLARE_SERIALIZER(APO_AIController)
 
 
-#define FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_Enemy_PO_AIController_h_17_ENHANCED_CONSTRUCTORS \
+#define FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_Enemy_PO_AIController_h_17_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	APO_AIController(APO_AIController&&) = delete; \
 	APO_AIController(const APO_AIController&) = delete; \
@@ -41,12 +41,12 @@ public: \
 	NO_API virtual ~APO_AIController();
 
 
-#define FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_Enemy_PO_AIController_h_14_PROLOG
-#define FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_Enemy_PO_AIController_h_17_GENERATED_BODY \
+#define FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_Enemy_PO_AIController_h_14_PROLOG
+#define FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_Enemy_PO_AIController_h_17_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_Enemy_PO_AIController_h_17_INCLASS_NO_PURE_DECLS \
-	FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_Enemy_PO_AIController_h_17_ENHANCED_CONSTRUCTORS \
+	FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_Enemy_PO_AIController_h_17_INCLASS_NO_PURE_DECLS \
+	FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_Enemy_PO_AIController_h_17_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -56,6 +56,6 @@ class APO_AIController;
 // ********** End Class APO_AIController ***********************************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_Enemy_PO_AIController_h
+#define CURRENT_FILE_ID FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_Enemy_PO_AIController_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

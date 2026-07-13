@@ -107,15 +107,15 @@ ATwinStickNPCDestruction::~ATwinStickNPCDestruction() {}
 // ********** End Class ATwinStickNPCDestruction ***************************************************
 
 // ********** Begin Registration *******************************************************************
-struct Z_CompiledInDeferFile_FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_Variant_TwinStick_AI_TwinStickNPCDestruction_h__Script_ProjectO_Statics
+struct Z_CompiledInDeferFile_FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_Variant_TwinStick_AI_TwinStickNPCDestruction_h__Script_ProjectO_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
 		{ Z_Construct_UClass_ATwinStickNPCDestruction, ATwinStickNPCDestruction::StaticClass, TEXT("ATwinStickNPCDestruction"), &Z_Registration_Info_UClass_ATwinStickNPCDestruction, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ATwinStickNPCDestruction), 1000444110U) },
 	};
-}; // Z_CompiledInDeferFile_FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_Variant_TwinStick_AI_TwinStickNPCDestruction_h__Script_ProjectO_Statics 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_Variant_TwinStick_AI_TwinStickNPCDestruction_h__Script_ProjectO_1651173296{
+}; // Z_CompiledInDeferFile_FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_Variant_TwinStick_AI_TwinStickNPCDestruction_h__Script_ProjectO_Statics 
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_Variant_TwinStick_AI_TwinStickNPCDestruction_h__Script_ProjectO_1651173296{
 	TEXT("/Script/ProjectO"),
-	Z_CompiledInDeferFile_FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_Variant_TwinStick_AI_TwinStickNPCDestruction_h__Script_ProjectO_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_Variant_TwinStick_AI_TwinStickNPCDestruction_h__Script_ProjectO_Statics::ClassInfo),
+	Z_CompiledInDeferFile_FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_Variant_TwinStick_AI_TwinStickNPCDestruction_h__Script_ProjectO_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_Variant_TwinStick_AI_TwinStickNPCDestruction_h__Script_ProjectO_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0,
 };

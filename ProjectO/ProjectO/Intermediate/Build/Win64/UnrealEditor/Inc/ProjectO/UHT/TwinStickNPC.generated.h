@@ -20,7 +20,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 struct Z_Construct_UClass_ATwinStickNPC_Statics;
 PROJECTO_API UClass* Z_Construct_UClass_ATwinStickNPC_NoRegister();
 
-#define FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_Variant_TwinStick_AI_TwinStickNPC_h_20_INCLASS_NO_PURE_DECLS \
+#define FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_Variant_TwinStick_AI_TwinStickNPC_h_20_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesATwinStickNPC(); \
 	friend struct ::Z_Construct_UClass_ATwinStickNPC_Statics; \
@@ -31,7 +31,7 @@ public: \
 	DECLARE_SERIALIZER(ATwinStickNPC)
 
 
-#define FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_Variant_TwinStick_AI_TwinStickNPC_h_20_ENHANCED_CONSTRUCTORS \
+#define FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_Variant_TwinStick_AI_TwinStickNPC_h_20_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	ATwinStickNPC(ATwinStickNPC&&) = delete; \
 	ATwinStickNPC(const ATwinStickNPC&) = delete; \
@@ -41,12 +41,12 @@ public: \
 	NO_API virtual ~ATwinStickNPC();
 
 
-#define FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_Variant_TwinStick_AI_TwinStickNPC_h_17_PROLOG
-#define FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_Variant_TwinStick_AI_TwinStickNPC_h_20_GENERATED_BODY \
+#define FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_Variant_TwinStick_AI_TwinStickNPC_h_17_PROLOG
+#define FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_Variant_TwinStick_AI_TwinStickNPC_h_20_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_Variant_TwinStick_AI_TwinStickNPC_h_20_INCLASS_NO_PURE_DECLS \
-	FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_Variant_TwinStick_AI_TwinStickNPC_h_20_ENHANCED_CONSTRUCTORS \
+	FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_Variant_TwinStick_AI_TwinStickNPC_h_20_INCLASS_NO_PURE_DECLS \
+	FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_Variant_TwinStick_AI_TwinStickNPC_h_20_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -56,6 +56,6 @@ class ATwinStickNPC;
 // ********** End Class ATwinStickNPC **************************************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_Variant_TwinStick_AI_TwinStickNPC_h
+#define CURRENT_FILE_ID FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_Variant_TwinStick_AI_TwinStickNPC_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -10,13 +10,13 @@
                         "text": "'void APO_Enemy::TakeDamage(float)': 멤버 함수가 기본 클래스 가상 멤버 함수를 재정의하지 않습니다."
                     },
                     "analysisTarget": {
-                        "uri": "file:///E:/Git/MarbleRace/ProjectO/ProjectO/Source/ProjectO/Enemy/PO_EnemySpawner.cpp"
+                        "uri": "file:///E:/Git/ProjectO/ProjectO/ProjectO/Source/ProjectO/Enemy/PO_EnemySpawner.cpp"
                     },
                     "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
-                                    "uri": "file:///E:/Git/MarbleRace/ProjectO/ProjectO/Source/ProjectO/Enemy/PO_Enemy.h"
+                                    "uri": "file:///E:/Git/ProjectO/ProjectO/ProjectO/Source/ProjectO/Enemy/PO_Enemy.h"
                                 },
                                 "region": {
                                     "startLine": 56,
@@ -35,13 +35,13 @@
                         "text": "'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': 기본 'APawn'의 가상 멤버 함수에 대해 재정의를 사용할 수 없습니다. 함수가 숨겨집니다."
                     },
                     "analysisTarget": {
-                        "uri": "file:///E:/Git/MarbleRace/ProjectO/ProjectO/Source/ProjectO/Enemy/PO_EnemySpawner.cpp"
+                        "uri": "file:///E:/Git/ProjectO/ProjectO/ProjectO/Source/ProjectO/Enemy/PO_EnemySpawner.cpp"
                     },
                     "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
-                                    "uri": "file:///E:/Git/MarbleRace/ProjectO/ProjectO/Source/ProjectO/Enemy/PO_Enemy.h"
+                                    "uri": "file:///E:/Git/ProjectO/ProjectO/ProjectO/Source/ProjectO/Enemy/PO_Enemy.h"
                                 },
                                 "region": {
                                     "startLine": 13,

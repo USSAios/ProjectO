@@ -1,13 +1,13 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "e:\\git\\marblerace\\projecto\\projecto\\source\\projecto\\enemy\\po_deatheffect.cpp",
+        "Source": "e:\\git\\projecto\\projecto\\projecto\\source\\projecto\\enemy\\po_deatheffect.cpp",
         "ProvidedModule": "",
-        "PCH": "e:\\git\\marblerace\\projecto\\projecto\\intermediate\\build\\win64\\x64\\projectoeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "PCH": "e:\\git\\projecto\\projecto\\projecto\\intermediate\\build\\win64\\x64\\projectoeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
         "Includes": [
-            "e:\\git\\marblerace\\projecto\\projecto\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\projecto\\definitions.projecto.h",
-            "e:\\git\\marblerace\\projecto\\projecto\\source\\projecto\\enemy\\po_deatheffect.h",
-            "e:\\git\\marblerace\\projecto\\projecto\\intermediate\\build\\win64\\unrealeditor\\inc\\projecto\\uht\\po_deatheffect.generated.h",
+            "e:\\git\\projecto\\projecto\\projecto\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\projecto\\definitions.projecto.h",
+            "e:\\git\\projecto\\projecto\\projecto\\source\\projecto\\enemy\\po_deatheffect.h",
+            "e:\\git\\projecto\\projecto\\projecto\\intermediate\\build\\win64\\unrealeditor\\inc\\projecto\\uht\\po_deatheffect.generated.h",
             "e:\\unreal\\ue_5.7\\engine\\source\\runtime\\experimental\\geometrycollectionengine\\public\\geometrycollection\\geometrycollectioncomponent.h",
             "e:\\unreal\\ue_5.7\\engine\\source\\runtime\\experimental\\chaos\\public\\field\\fieldsystem.h",
             "e:\\unreal\\ue_5.7\\engine\\source\\runtime\\experimental\\chaos\\public\\field\\fieldsystemtypes.h",

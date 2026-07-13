@@ -2,6 +2,7 @@
 	"RemapUnityFiles": 
 	{
 		"Module.ProjectO.cpp.obj": [
+			"ActiveSkillGameplayAbility.gen.cpp.obj",
 			"CharacterAttributeSet.gen.cpp.obj",
 			"PO_AIController.gen.cpp.obj",
 			"PO_DeathEffect.gen.cpp.obj",
@@ -16,6 +17,7 @@
 			"ProjectOCharacter.gen.cpp.obj",
 			"ProjectOGameMode.gen.cpp.obj",
 			"ProjectOPlayerController.gen.cpp.obj",
+			"SkillGameplayAbility.gen.cpp.obj",
 			"StrategyGameMode.gen.cpp.obj",
 			"StrategyHUD.gen.cpp.obj",
 			"StrategyPawn.gen.cpp.obj",
@@ -39,6 +41,8 @@
 			"PO_DeathEffect.cpp.obj",
 			"PO_Enemy.cpp.obj",
 			"PO_EnemySpawner.cpp.obj",
+			"ActiveSkillGameplayAbility.cpp.obj",
+			"SkillGameplayAbility.cpp.obj",
 			"CharacterAttributeSet.cpp.obj",
 			"PO_Object.cpp.obj",
 			"PO_ObjectSpawner.cpp.obj",

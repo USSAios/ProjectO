@@ -7080,11 +7080,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Git\\MarbleRace\\ProjectO\\ProjectO\\Intermediate\\Build\\BuildRulesProjects\\ProjectOModuleRules\\ProjectOModuleRules.csproj",
+      "projectUniqueName": "E:\\Git\\ProjectO\\ProjectO\\ProjectO\\Intermediate\\Build\\BuildRulesProjects\\ProjectOModuleRules\\ProjectOModuleRules.csproj",
       "projectName": "ProjectOModuleRules",
-      "projectPath": "E:\\Git\\MarbleRace\\ProjectO\\ProjectO\\Intermediate\\Build\\BuildRulesProjects\\ProjectOModuleRules\\ProjectOModuleRules.csproj",
+      "projectPath": "E:\\Git\\ProjectO\\ProjectO\\ProjectO\\Intermediate\\Build\\BuildRulesProjects\\ProjectOModuleRules\\ProjectOModuleRules.csproj",
       "packagesPath": "C:\\Users\\ussa9\\.nuget\\packages\\",
-      "outputPath": "E:\\Git\\MarbleRace\\ProjectO\\ProjectO\\Intermediate\\Build\\BuildRulesProjects\\ProjectOModuleRules\\obj\\",
+      "outputPath": "E:\\Git\\ProjectO\\ProjectO\\ProjectO\\Intermediate\\Build\\BuildRulesProjects\\ProjectOModuleRules\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

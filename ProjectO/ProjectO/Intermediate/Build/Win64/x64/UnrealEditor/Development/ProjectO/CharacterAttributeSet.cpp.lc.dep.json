@@ -1,12 +1,12 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "e:\\git\\marblerace\\projecto\\projecto\\source\\projecto\\gas\\attributeset\\characterattributeset.cpp",
+        "Source": "e:\\git\\projecto\\projecto\\projecto\\source\\projecto\\gas\\attributeset\\characterattributeset.cpp",
         "ProvidedModule": "",
-        "PCH": "e:\\git\\marblerace\\projecto\\projecto\\intermediate\\build\\win64\\x64\\projectoeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "PCH": "e:\\git\\projecto\\projecto\\projecto\\intermediate\\build\\win64\\x64\\projectoeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
         "Includes": [
-            "e:\\git\\marblerace\\projecto\\projecto\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\projecto\\definitions.projecto.h",
-            "e:\\git\\marblerace\\projecto\\projecto\\source\\projecto\\gas\\attributeset\\characterattributeset.h",
+            "e:\\git\\projecto\\projecto\\projecto\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\projecto\\definitions.projecto.h",
+            "e:\\git\\projecto\\projecto\\projecto\\source\\projecto\\gas\\attributeset\\characterattributeset.h",
             "e:\\unreal\\ue_5.7\\engine\\plugins\\runtime\\gameplayabilities\\source\\gameplayabilities\\public\\abilitysystemcomponent.h",
             "e:\\unreal\\ue_5.7\\engine\\source\\runtime\\gameplaytags\\classes\\gameplaytagcontainer.h",
             "e:\\unreal\\ue_5.7\\engine\\source\\runtime\\core\\public\\misc\\comparisonutility.h",
@@ -59,8 +59,8 @@
             "e:\\unreal\\ue_5.7\\engine\\plugins\\runtime\\gameplayabilities\\source\\gameplayabilities\\public\\abilitysystemreplicationproxyinterface.h",
             "e:\\unreal\\ue_5.7\\engine\\plugins\\runtime\\gameplayabilities\\intermediate\\build\\win64\\unrealeditor\\inc\\gameplayabilities\\uht\\abilitysystemreplicationproxyinterface.generated.h",
             "e:\\unreal\\ue_5.7\\engine\\plugins\\runtime\\gameplayabilities\\intermediate\\build\\win64\\unrealeditor\\inc\\gameplayabilities\\uht\\abilitysystemcomponent.generated.h",
-            "e:\\git\\marblerace\\projecto\\projecto\\intermediate\\build\\win64\\unrealeditor\\inc\\projecto\\uht\\characterattributeset.generated.h",
-            "e:\\git\\marblerace\\projecto\\projecto\\source\\projecto\\projectocharacter.h",
+            "e:\\git\\projecto\\projecto\\projecto\\intermediate\\build\\win64\\unrealeditor\\inc\\projecto\\uht\\characterattributeset.generated.h",
+            "e:\\git\\projecto\\projecto\\projecto\\source\\projecto\\projectocharacter.h",
             "e:\\unreal\\ue_5.7\\engine\\source\\runtime\\engine\\classes\\gameframework\\character.h",
             "e:\\unreal\\ue_5.7\\engine\\source\\runtime\\engine\\classes\\gameframework\\charactermovementreplication.h",
             "e:\\unreal\\ue_5.7\\engine\\source\\runtime\\net\\core\\public\\net\\core\\nettoken\\nettokenexportcontext.h",
@@ -163,7 +163,7 @@
             "e:\\unreal\\ue_5.7\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\physicshandlecomponent.generated.h",
             "e:\\unreal\\ue_5.7\\engine\\plugins\\runtime\\gameplayabilities\\source\\gameplayabilities\\public\\abilitysysteminterface.h",
             "e:\\unreal\\ue_5.7\\engine\\plugins\\runtime\\gameplayabilities\\intermediate\\build\\win64\\unrealeditor\\inc\\gameplayabilities\\uht\\abilitysysteminterface.generated.h",
-            "e:\\git\\marblerace\\projecto\\projecto\\intermediate\\build\\win64\\unrealeditor\\inc\\projecto\\uht\\projectocharacter.generated.h"
+            "e:\\git\\projecto\\projecto\\projecto\\intermediate\\build\\win64\\unrealeditor\\inc\\projecto\\uht\\projectocharacter.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

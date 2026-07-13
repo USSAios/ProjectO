@@ -1,15 +1,15 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "e:\\git\\marblerace\\projecto\\projecto\\source\\projecto\\object\\po_object.cpp",
+        "Source": "e:\\git\\projecto\\projecto\\projecto\\source\\projecto\\object\\po_object.cpp",
         "ProvidedModule": "",
-        "PCH": "e:\\git\\marblerace\\projecto\\projecto\\intermediate\\build\\win64\\x64\\projectoeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "PCH": "e:\\git\\projecto\\projecto\\projecto\\intermediate\\build\\win64\\x64\\projectoeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
         "Includes": [
-            "e:\\git\\marblerace\\projecto\\projecto\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\projecto\\definitions.projecto.h",
-            "e:\\git\\marblerace\\projecto\\projecto\\source\\projecto\\object\\po_object.h",
-            "e:\\git\\marblerace\\projecto\\projecto\\source\\projecto\\enemy\\po_enemy.h",
-            "e:\\git\\marblerace\\projecto\\projecto\\source\\projecto\\enemy\\po_deatheffect.h",
-            "e:\\git\\marblerace\\projecto\\projecto\\intermediate\\build\\win64\\unrealeditor\\inc\\projecto\\uht\\po_deatheffect.generated.h",
+            "e:\\git\\projecto\\projecto\\projecto\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\projecto\\definitions.projecto.h",
+            "e:\\git\\projecto\\projecto\\projecto\\source\\projecto\\object\\po_object.h",
+            "e:\\git\\projecto\\projecto\\projecto\\source\\projecto\\enemy\\po_enemy.h",
+            "e:\\git\\projecto\\projecto\\projecto\\source\\projecto\\enemy\\po_deatheffect.h",
+            "e:\\git\\projecto\\projecto\\projecto\\intermediate\\build\\win64\\unrealeditor\\inc\\projecto\\uht\\po_deatheffect.generated.h",
             "e:\\unreal\\ue_5.7\\engine\\source\\runtime\\engine\\classes\\gameframework\\character.h",
             "e:\\unreal\\ue_5.7\\engine\\source\\runtime\\engine\\classes\\gameframework\\charactermovementreplication.h",
             "e:\\unreal\\ue_5.7\\engine\\source\\runtime\\net\\core\\public\\net\\core\\nettoken\\nettokenexportcontext.h",
@@ -19,10 +19,10 @@
             "e:\\unreal\\ue_5.7\\engine\\source\\runtime\\engine\\classes\\gameframework\\rootmotionsource.h",
             "e:\\unreal\\ue_5.7\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\rootmotionsource.generated.h",
             "e:\\unreal\\ue_5.7\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\character.generated.h",
-            "e:\\git\\marblerace\\projecto\\projecto\\intermediate\\build\\win64\\unrealeditor\\inc\\projecto\\uht\\po_enemy.generated.h",
-            "e:\\git\\marblerace\\projecto\\projecto\\intermediate\\build\\win64\\unrealeditor\\inc\\projecto\\uht\\po_object.generated.h",
-            "e:\\git\\marblerace\\projecto\\projecto\\source\\projecto\\projectoplayercontroller.h",
-            "e:\\git\\marblerace\\projecto\\projecto\\intermediate\\build\\win64\\unrealeditor\\inc\\projecto\\uht\\projectoplayercontroller.generated.h"
+            "e:\\git\\projecto\\projecto\\projecto\\intermediate\\build\\win64\\unrealeditor\\inc\\projecto\\uht\\po_enemy.generated.h",
+            "e:\\git\\projecto\\projecto\\projecto\\intermediate\\build\\win64\\unrealeditor\\inc\\projecto\\uht\\po_object.generated.h",
+            "e:\\git\\projecto\\projecto\\projecto\\source\\projecto\\projectoplayercontroller.h",
+            "e:\\git\\projecto\\projecto\\projecto\\intermediate\\build\\win64\\unrealeditor\\inc\\projecto\\uht\\projectoplayercontroller.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

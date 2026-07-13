@@ -2,6 +2,8 @@
 	"RemapUnityFiles": 
 	{
 		"Module.ProjectO.cpp.obj": [
+			"ActiveSkillGameplayAbility.gen.cpp.obj",
+			"Bigger_Ability.gen.cpp.obj",
 			"CharacterAttributeSet.gen.cpp.obj",
 			"PO_AIController.gen.cpp.obj",
 			"PO_DeathEffect.gen.cpp.obj",
@@ -40,6 +42,8 @@
 			"PO_DeathEffect.cpp.obj",
 			"PO_Enemy.cpp.obj",
 			"PO_EnemySpawner.cpp.obj",
+			"ActiveSkillGameplayAbility.cpp.obj",
+			"Bigger_Ability.cpp.obj",
 			"SkillGameplayAbility.cpp.obj",
 			"CharacterAttributeSet.cpp.obj",
 			"PO_Object.cpp.obj",

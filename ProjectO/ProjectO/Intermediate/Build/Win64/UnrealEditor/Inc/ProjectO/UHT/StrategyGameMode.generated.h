@@ -20,7 +20,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 struct Z_Construct_UClass_AStrategyGameMode_Statics;
 PROJECTO_API UClass* Z_Construct_UClass_AStrategyGameMode_NoRegister();
 
-#define FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_Variant_Strategy_StrategyGameMode_h_15_INCLASS_NO_PURE_DECLS \
+#define FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_Variant_Strategy_StrategyGameMode_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAStrategyGameMode(); \
 	friend struct ::Z_Construct_UClass_AStrategyGameMode_Statics; \
@@ -31,7 +31,7 @@ public: \
 	DECLARE_SERIALIZER(AStrategyGameMode)
 
 
-#define FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_Variant_Strategy_StrategyGameMode_h_15_ENHANCED_CONSTRUCTORS \
+#define FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_Variant_Strategy_StrategyGameMode_h_15_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AStrategyGameMode(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	/** Deleted move- and copy-constructors, should never be used */ \
@@ -43,12 +43,12 @@ public: \
 	NO_API virtual ~AStrategyGameMode();
 
 
-#define FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_Variant_Strategy_StrategyGameMode_h_12_PROLOG
-#define FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_Variant_Strategy_StrategyGameMode_h_15_GENERATED_BODY \
+#define FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_Variant_Strategy_StrategyGameMode_h_12_PROLOG
+#define FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_Variant_Strategy_StrategyGameMode_h_15_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_Variant_Strategy_StrategyGameMode_h_15_INCLASS_NO_PURE_DECLS \
-	FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_Variant_Strategy_StrategyGameMode_h_15_ENHANCED_CONSTRUCTORS \
+	FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_Variant_Strategy_StrategyGameMode_h_15_INCLASS_NO_PURE_DECLS \
+	FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_Variant_Strategy_StrategyGameMode_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -58,6 +58,6 @@ class AStrategyGameMode;
 // ********** End Class AStrategyGameMode **********************************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_Variant_Strategy_StrategyGameMode_h
+#define CURRENT_FILE_ID FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_Variant_Strategy_StrategyGameMode_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

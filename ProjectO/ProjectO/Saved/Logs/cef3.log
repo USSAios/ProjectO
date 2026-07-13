@@ -1,6 +1,5 @@
-[26528:26812:0711/131043.965:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
-[26528:26812:0711/131044.335:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
-[9028:14252:0711/131105.622:WARNING:frame_impl.cc(430)] virtual CefFrameImpl::SendProcessMessage sent to detached frame 5-BF0526746E13667DC162B7C610F67135 will be ignored
-[26528:26812:0711/131105.950:WARNING:frame_host_impl.cc(623)] virtual CefFrameHostImpl::SendProcessMessage sent to detached frame 5-BF0526746E13667DC162B7C610F67135 (main) will be ignored
-[26528:26812:0711/144337.866:ERROR:device_event_log_impl.cc(196)] [14:43:37.663] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
-[26528:26812:0711/144405.235:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
+[8280:21176:0713/142311.623:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
+[8280:21176:0713/142311.699:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
+[11024:28256:0713/142318.995:WARNING:frame_impl.cc(430)] virtual CefFrameImpl::SendProcessMessage sent to detached frame 5-04438C185AA9C400A8C42444C504D1D7 will be ignored
+[8280:21176:0713/183802.760:ERROR:device_event_log_impl.cc(196)] [18:38:02.602] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+[8280:21176:0713/183829.986:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.

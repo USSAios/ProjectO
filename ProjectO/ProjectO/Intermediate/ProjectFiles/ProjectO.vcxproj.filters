@@ -66,6 +66,21 @@
     <Filter Include="Source\ProjectO\GAS\Abillity">
       <UniqueIdentifier>{ADC151E6-83BE-363B-BAAF-EFCC39BBDBB0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source\ProjectO\GAS\Abillity\Active">
+      <UniqueIdentifier>{1CD17F8D-67EA-3343-94EC-8CBF452F40A9}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ProjectO\GAS\Abillity\Active\ActiveSkillGameplayAbility.cpp">
+      <Filter>Source\ProjectO\GAS\Abillity\Active</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectO\GAS\Abillity\Active\ActiveSkillGameplayAbility.h">
+      <Filter>Source\ProjectO\GAS\Abillity\Active</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectO\GAS\Abillity\Active\Bigger_Ability.cpp">
+      <Filter>Source\ProjectO\GAS\Abillity\Active</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectO\GAS\Abillity\Active\Bigger_Ability.h">
+      <Filter>Source\ProjectO\GAS\Abillity\Active</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\ProjectO\GAS\Abillity\SkillGameplayAbility.cpp">
       <Filter>Source\ProjectO\GAS\Abillity</Filter>
     </ClCompile>

@@ -274,6 +274,14 @@
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <ClInclude Include="..\..\Source\ProjectO\Enemy\PO_EnemySpawner.h"/>
+    <ClCompile Include="..\..\Source\ProjectO\GAS\Abillity\Active\ActiveSkillGameplayAbility.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectO\GAS\Abillity\Active\ActiveSkillGameplayAbility.h"/>
+    <ClCompile Include="..\..\Source\ProjectO\GAS\Abillity\Active\Bigger_Ability.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectO\GAS\Abillity\Active\Bigger_Ability.h"/>
     <ClCompile Include="..\..\Source\ProjectO\GAS\Abillity\SkillGameplayAbility.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>

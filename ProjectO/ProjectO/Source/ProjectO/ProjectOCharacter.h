@@ -61,7 +61,7 @@ protected:
 	UPROPERTY(VisibleAnywhere)
 	TObjectPtr<UPhysicsHandleComponent> PhysicsHandle;
 
-	UPROPERTY()
+	UPROPERTY(VisibleAnywhere)
 	TObjectPtr<APO_Object> GrabbedObject;
 
 	UPROPERTY(EditAnywhere, Category="Grab")
@@ -106,6 +106,9 @@ public:
 	bool IsGrabbing() const;
 
 	void Launch(const FInputActionValue& Value);
+
+	UFUNCTION(BlueprintCallable)
+	APO_Object* GetObject() const { return GrabbedObject.Get(); }
 
 	virtual UAbilitySystemComponent* GetAbilitySystemComponent() const;
 	

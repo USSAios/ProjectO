@@ -20,7 +20,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 struct Z_Construct_UClass_ATwinStickAIController_Statics;
 PROJECTO_API UClass* Z_Construct_UClass_ATwinStickAIController_NoRegister();
 
-#define FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_Variant_TwinStick_AI_TwinStickAIController_h_18_INCLASS_NO_PURE_DECLS \
+#define FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_Variant_TwinStick_AI_TwinStickAIController_h_18_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesATwinStickAIController(); \
 	friend struct ::Z_Construct_UClass_ATwinStickAIController_Statics; \
@@ -31,7 +31,7 @@ public: \
 	DECLARE_SERIALIZER(ATwinStickAIController)
 
 
-#define FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_Variant_TwinStick_AI_TwinStickAIController_h_18_ENHANCED_CONSTRUCTORS \
+#define FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_Variant_TwinStick_AI_TwinStickAIController_h_18_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	ATwinStickAIController(ATwinStickAIController&&) = delete; \
 	ATwinStickAIController(const ATwinStickAIController&) = delete; \
@@ -41,12 +41,12 @@ public: \
 	NO_API virtual ~ATwinStickAIController();
 
 
-#define FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_Variant_TwinStick_AI_TwinStickAIController_h_15_PROLOG
-#define FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_Variant_TwinStick_AI_TwinStickAIController_h_18_GENERATED_BODY \
+#define FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_Variant_TwinStick_AI_TwinStickAIController_h_15_PROLOG
+#define FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_Variant_TwinStick_AI_TwinStickAIController_h_18_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_Variant_TwinStick_AI_TwinStickAIController_h_18_INCLASS_NO_PURE_DECLS \
-	FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_Variant_TwinStick_AI_TwinStickAIController_h_18_ENHANCED_CONSTRUCTORS \
+	FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_Variant_TwinStick_AI_TwinStickAIController_h_18_INCLASS_NO_PURE_DECLS \
+	FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_Variant_TwinStick_AI_TwinStickAIController_h_18_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -56,6 +56,6 @@ class ATwinStickAIController;
 // ********** End Class ATwinStickAIController *****************************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_Variant_TwinStick_AI_TwinStickAIController_h
+#define CURRENT_FILE_ID FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_Variant_TwinStick_AI_TwinStickAIController_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -233,15 +233,15 @@ ATwinStickProjectile::~ATwinStickProjectile() {}
 // ********** End Class ATwinStickProjectile *******************************************************
 
 // ********** Begin Registration *******************************************************************
-struct Z_CompiledInDeferFile_FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_Variant_TwinStick_Gameplay_TwinStickProjectile_h__Script_ProjectO_Statics
+struct Z_CompiledInDeferFile_FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_Variant_TwinStick_Gameplay_TwinStickProjectile_h__Script_ProjectO_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
 		{ Z_Construct_UClass_ATwinStickProjectile, ATwinStickProjectile::StaticClass, TEXT("ATwinStickProjectile"), &Z_Registration_Info_UClass_ATwinStickProjectile, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ATwinStickProjectile), 2255865289U) },
 	};
-}; // Z_CompiledInDeferFile_FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_Variant_TwinStick_Gameplay_TwinStickProjectile_h__Script_ProjectO_Statics 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_Variant_TwinStick_Gameplay_TwinStickProjectile_h__Script_ProjectO_1905915714{
+}; // Z_CompiledInDeferFile_FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_Variant_TwinStick_Gameplay_TwinStickProjectile_h__Script_ProjectO_Statics 
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_Variant_TwinStick_Gameplay_TwinStickProjectile_h__Script_ProjectO_1905915714{
 	TEXT("/Script/ProjectO"),
-	Z_CompiledInDeferFile_FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_Variant_TwinStick_Gameplay_TwinStickProjectile_h__Script_ProjectO_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Git_MarbleRace_ProjectO_ProjectO_Source_ProjectO_Variant_TwinStick_Gameplay_TwinStickProjectile_h__Script_ProjectO_Statics::ClassInfo),
+	Z_CompiledInDeferFile_FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_Variant_TwinStick_Gameplay_TwinStickProjectile_h__Script_ProjectO_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_Variant_TwinStick_Gameplay_TwinStickProjectile_h__Script_ProjectO_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0,
 };

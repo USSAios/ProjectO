@@ -114,7 +114,22 @@ void AProjectOCharacter::BeginPlay()
 			// 런타임에 안전하게 접근하기 위해 기획된 초기값을 할당하는 로직을 여기에 둡니다.
 			CharacterSet->SetMaxHealth(MaxHP);
 			CharacterSet->SetHealth(MaxHP);
+		}
 
+		for (TSubclassOf<UGameplayAbility> AbilityClass : AbilityArray)
+		{
+			if (AbilityClass)
+			{
+				//AbilitySystemComponent->GiveAbility(FGameplayAbilitySpec(AbilityClass, 1, static_cast<int32>(AbilityClass.GetDefaultObject()->GetPrimaryAssetId().PrimaryAssetType.GetName()))); 
+				// 만약 위 코드가 복잡하다면 간단하게 아래처럼 쓰셔도 됩니다.
+				AbilitySystemComponent->GiveAbility(FGameplayAbilitySpec(AbilityClass, 1, -1));
+			}
+		}
+
+		if (HealthBarComponent)
+		{
+			// 블루프린트 UI 위젯이 완전히 Construct될 수 있도록 타이밍을 맞춰 호출하거나,
+			// 위젯 내부에서 캐릭터를 가져가도록 처리하는 것이 안전합니다.
 			BroadcastInitialValues();
 		}
 	}
@@ -325,8 +340,9 @@ void AProjectOCharacter::Launch(const FInputActionValue& Value)
 
 	PhysicsHandle->ReleaseComponent();
 
-	
-	Primitive->AddImpulse(GetActorForwardVector() * ThrowForce, NAME_None, true);
+	float CurrentThrowForce = AbilitySystemComponent->GetNumericAttribute(UCharacterAttributeSet::GetThrowForceAttribute());
+
+	Primitive->AddImpulse(GetActorForwardVector() * CurrentThrowForce, NAME_None, true);
 	
 
 	GrabbedObject->EndGrab();
@@ -383,27 +399,35 @@ void AProjectOCharacter::OnDeath()
 
 void AProjectOCharacter::Skill1()
 {
+	UE_LOG(LogTemp, Log, TEXT("Skill1"));
+
 	if (AbilitySystemComponent)
 	{
-		// 1. 클래스 기반으로 직접 실행하는 방법
-		// 만약 DefaultAbilities[0]에 있는 스킬을 실행하고 싶다면:
-		// AbilitySystemComponent->TryActivateAbilityByClass(DefaultAbilities[0]);
-
-		// 2. [추천] 태그 기반으로 실행하는 방법
-		// 어빌리티 내부 설정에 'Ability.Skill.Fireball' 같은 태그를 지정해두고 호출합니다.
-		FGameplayTagContainer TargetTags;
-		TargetTags.AddTag(FGameplayTag::RequestGameplayTag(FName("Ability.Skill.Skill1")));
-        
 		AbilitySystemComponent->TryActivateAbilityByClass(AbilityArray[0]);
+		UE_LOG(LogTemp, Log, TEXT("Skill1 Activate"));
 	}
 }
 
 void AProjectOCharacter::Skill2()
 {
+	UE_LOG(LogTemp, Log, TEXT("Skill2"));
+
+	
+	if (AbilitySystemComponent)
+	{
+		AbilitySystemComponent->TryActivateAbilityByClass(AbilityArray[1]);
+	}
 }
 
 void AProjectOCharacter::Skill3()
 {
+	UE_LOG(LogTemp, Log, TEXT("Skill3"));
+
+	
+	if (AbilitySystemComponent)
+	{
+		AbilitySystemComponent->TryActivateAbilityByClass(AbilityArray[2]);
+	}
 }
 
 void AProjectOCharacter::BroadcastInitialValues()
