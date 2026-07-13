@@ -1,0 +1,107 @@
+{
+    "version": "2.1.0",
+    "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+    "runs": [
+        {
+            "results": [
+                {
+                    "ruleId": "C4263",
+                    "message": {
+                        "text": "'void APO_Enemy::TakeDamage(float)': 멤버 함수가 기본 클래스 가상 멤버 함수를 재정의하지 않습니다."
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///E:/Git/MarbleRace/ProjectO/ProjectO/Source/ProjectO/Object/PO_ObjectSpawner.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///E:/Git/MarbleRace/ProjectO/ProjectO/Source/ProjectO/Enemy/PO_Enemy.h"
+                                },
+                                "region": {
+                                    "startLine": 56,
+                                    "startColumn": 7,
+                                    "snippet": {
+                                        "text": "\tvoid TakeDamage(float Damage);"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4264",
+                    "message": {
+                        "text": "'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': 기본 'APawn'의 가상 멤버 함수에 대해 재정의를 사용할 수 없습니다. 함수가 숨겨집니다."
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///E:/Git/MarbleRace/ProjectO/ProjectO/Source/ProjectO/Object/PO_ObjectSpawner.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///E:/Git/MarbleRace/ProjectO/ProjectO/Source/ProjectO/Enemy/PO_Enemy.h"
+                                },
+                                "region": {
+                                    "startLine": 13,
+                                    "startColumn": 20,
+                                    "snippet": {
+                                        "text": "class PROJECTO_API APO_Enemy : public ACharacter"
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "relatedLocations": [
+                        {
+                            "id": 0,
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///E:/Unreal/UE_5.7/Engine/Source/Runtime/Engine/Classes/GameFramework/Pawn.h"
+                                },
+                                "region": {
+                                    "startLine": 295,
+                                    "startColumn": 27,
+                                    "snippet": {
+                                        "text": "\tENGINE_API virtual float TakeDamage(float Damage, struct FDamageEvent const& DamageEvent, AController* EventInstigator, AActor* DamageCauser) override;"
+                                    }
+                                }
+                            },
+                            "message": {
+                                "text": "'APawn::TakeDamage' 선언을 참조하십시오."
+                            }
+                        },
+                        {
+                            "id": 1,
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///E:/Unreal/UE_5.7/Engine/Source/Runtime/Engine/Classes/GameFramework/Pawn.h"
+                                },
+                                "region": {
+                                    "startLine": 42,
+                                    "startColumn": 7,
+                                    "snippet": {
+                                        "text": "class APawn : public AActor, public INavAgentInterface"
+                                    }
+                                }
+                            },
+                            "message": {
+                                "text": "'APawn' 선언을 참조하십시오."
+                            }
+                        }
+                    ]
+                }
+            ],
+            "tool": {
+                "driver": {
+                    "name": "MSVC",
+                    "shortDescription": {
+                        "text": "Microsoft Visual C++ Compiler Warnings/Errors"
+                    },
+                    "informationUri": "https://docs.microsoft.com/cpp/error-messages/compiler-errors-1/c-cpp-build-errors"
+                }
+            }
+        }
+    ]
+}

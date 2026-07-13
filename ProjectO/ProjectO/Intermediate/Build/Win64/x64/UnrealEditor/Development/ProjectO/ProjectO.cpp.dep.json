@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "e:\\git\\marblerace\\projecto\\projecto\\source\\projecto\\projecto.cpp",
+        "ProvidedModule": "",
+        "PCH": "e:\\git\\marblerace\\projecto\\projecto\\intermediate\\build\\win64\\x64\\projectoeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "Includes": [
+            "e:\\git\\marblerace\\projecto\\projecto\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\projecto\\definitions.projecto.h",
+            "e:\\git\\marblerace\\projecto\\projecto\\source\\projecto\\projecto.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

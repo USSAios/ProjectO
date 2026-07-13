@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\ProjectO.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ProjectO.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\ProjectOEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Source\ProjectO">
+      <UniqueIdentifier>{BF68B1D7-527A-3BAC-91C1-DB228A0BE62B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\ProjectO\Enemy">
+      <UniqueIdentifier>{69CE665A-DD3E-372B-B6DF-5C228CA02044}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ProjectO\Enemy\PO_AIController.cpp">
+      <Filter>Source\ProjectO\Enemy</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectO\Enemy\PO_AIController.h">
+      <Filter>Source\ProjectO\Enemy</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectO\Enemy\PO_DeathEffect.cpp">
+      <Filter>Source\ProjectO\Enemy</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectO\Enemy\PO_DeathEffect.h">
+      <Filter>Source\ProjectO\Enemy</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectO\Enemy\PO_Enemy.cpp">
+      <Filter>Source\ProjectO\Enemy</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectO\Enemy\PO_Enemy.h">
+      <Filter>Source\ProjectO\Enemy</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectO\Enemy\PO_EnemySpawner.cpp">
+      <Filter>Source\ProjectO\Enemy</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectO\Enemy\PO_EnemySpawner.h">
+      <Filter>Source\ProjectO\Enemy</Filter>
+    </ClInclude>
+    <Filter Include="Source\ProjectO\GAS">
+      <UniqueIdentifier>{CDA1588A-49D4-3C92-8FD8-C54678E2597B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\ProjectO\GAS\Abillity">
+      <UniqueIdentifier>{ADC151E6-83BE-363B-BAAF-EFCC39BBDBB0}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ProjectO\GAS\Abillity\SkillGameplayAbility.cpp">
+      <Filter>Source\ProjectO\GAS\Abillity</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectO\GAS\Abillity\SkillGameplayAbility.h">
+      <Filter>Source\ProjectO\GAS\Abillity</Filter>
+    </ClInclude>
+    <Filter Include="Source\ProjectO\GAS\AttributeSet">
+      <UniqueIdentifier>{89DE21AA-1DD1-3654-BB8A-2AEDD183CC35}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ProjectO\GAS\AttributeSet\CharacterAttributeSet.cpp">
+      <Filter>Source\ProjectO\GAS\AttributeSet</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectO\GAS\AttributeSet\CharacterAttributeSet.h">
+      <Filter>Source\ProjectO\GAS\AttributeSet</Filter>
+    </ClInclude>
+    <Filter Include="Source\ProjectO\Object">
+      <UniqueIdentifier>{A6438BF3-4224-32DC-9B35-76841FB51EBD}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ProjectO\Object\PO_Object.cpp">
+      <Filter>Source\ProjectO\Object</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectO\Object\PO_Object.h">
+      <Filter>Source\ProjectO\Object</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectO\Object\PO_ObjectSpawner.cpp">
+      <Filter>Source\ProjectO\Object</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectO\Object\PO_ObjectSpawner.h">
+      <Filter>Source\ProjectO\Object</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\ProjectO\ProjectO.Build.cs">
+      <Filter>Source\ProjectO</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\ProjectO\ProjectO.cpp">
+      <Filter>Source\ProjectO</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectO\ProjectO.h">
+      <Filter>Source\ProjectO</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectO\ProjectOCharacter.cpp">
+      <Filter>Source\ProjectO</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectO\ProjectOCharacter.h">
+      <Filter>Source\ProjectO</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectO\ProjectOGameMode.cpp">
+      <Filter>Source\ProjectO</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectO\ProjectOGameMode.h">
+      <Filter>Source\ProjectO</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectO\ProjectOPlayerController.cpp">
+      <Filter>Source\ProjectO</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectO\ProjectOPlayerController.h">
+      <Filter>Source\ProjectO</Filter>
+    </ClInclude>
+    <Filter Include="Source\ProjectO\UI">
+      <UniqueIdentifier>{99812D23-CDD7-3B87-809B-8464C5AA990D}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ProjectO\UI\PO_GameHUD.cpp">
+      <Filter>Source\ProjectO\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectO\UI\PO_GameHUD.h">
+      <Filter>Source\ProjectO\UI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectO\UI\PO_GameOverWidget.cpp">
+      <Filter>Source\ProjectO\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectO\UI\PO_GameOverWidget.h">
+      <Filter>Source\ProjectO\UI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectO\UI\PO_HealthBarWidget.cpp">
+      <Filter>Source\ProjectO\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectO\UI\PO_HealthBarWidget.h">
+      <Filter>Source\ProjectO\UI</Filter>
+    </ClInclude>
+    <Filter Include="Source\ProjectO\Variant_Strategy">
+      <UniqueIdentifier>{390AC72F-DBA9-310F-B743-DCE80B52B1CC}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ProjectO\Variant_Strategy\StrategyGameMode.cpp">
+      <Filter>Source\ProjectO\Variant_Strategy</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectO\Variant_Strategy\StrategyGameMode.h">
+      <Filter>Source\ProjectO\Variant_Strategy</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectO\Variant_Strategy\StrategyPawn.cpp">
+      <Filter>Source\ProjectO\Variant_Strategy</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectO\Variant_Strategy\StrategyPawn.h">
+      <Filter>Source\ProjectO\Variant_Strategy</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectO\Variant_Strategy\StrategyPlayerController.cpp">
+      <Filter>Source\ProjectO\Variant_Strategy</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectO\Variant_Strategy\StrategyPlayerController.h">
+      <Filter>Source\ProjectO\Variant_Strategy</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectO\Variant_Strategy\StrategyUnit.cpp">
+      <Filter>Source\ProjectO\Variant_Strategy</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectO\Variant_Strategy\StrategyUnit.h">
+      <Filter>Source\ProjectO\Variant_Strategy</Filter>
+    </ClInclude>
+    <Filter Include="Source\ProjectO\Variant_Strategy\UI">
+      <UniqueIdentifier>{4CC8FE61-1786-35B0-8B5D-5FCA18E22689}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ProjectO\Variant_Strategy\UI\StrategyHUD.cpp">
+      <Filter>Source\ProjectO\Variant_Strategy\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectO\Variant_Strategy\UI\StrategyHUD.h">
+      <Filter>Source\ProjectO\Variant_Strategy\UI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectO\Variant_Strategy\UI\StrategyUI.cpp">
+      <Filter>Source\ProjectO\Variant_Strategy\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectO\Variant_Strategy\UI\StrategyUI.h">
+      <Filter>Source\ProjectO\Variant_Strategy\UI</Filter>
+    </ClInclude>
+    <Filter Include="Source\ProjectO\Variant_TwinStick">
+      <UniqueIdentifier>{FEEF886D-F7EB-3DAE-9ACA-A9EA42EC4F3B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\ProjectO\Variant_TwinStick\AI">
+      <UniqueIdentifier>{FA803FB3-FCBB-3C68-9BFC-3532B3DBE1B0}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ProjectO\Variant_TwinStick\AI\TwinStickAIController.cpp">
+      <Filter>Source\ProjectO\Variant_TwinStick\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectO\Variant_TwinStick\AI\TwinStickAIController.h">
+      <Filter>Source\ProjectO\Variant_TwinStick\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectO\Variant_TwinStick\AI\TwinStickNPC.cpp">
+      <Filter>Source\ProjectO\Variant_TwinStick\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectO\Variant_TwinStick\AI\TwinStickNPC.h">
+      <Filter>Source\ProjectO\Variant_TwinStick\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectO\Variant_TwinStick\AI\TwinStickNPCDestruction.cpp">
+      <Filter>Source\ProjectO\Variant_TwinStick\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectO\Variant_TwinStick\AI\TwinStickNPCDestruction.h">
+      <Filter>Source\ProjectO\Variant_TwinStick\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectO\Variant_TwinStick\AI\TwinStickSpawner.cpp">
+      <Filter>Source\ProjectO\Variant_TwinStick\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectO\Variant_TwinStick\AI\TwinStickSpawner.h">
+      <Filter>Source\ProjectO\Variant_TwinStick\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectO\Variant_TwinStick\AI\TwinStickStateTreeUtility.cpp">
+      <Filter>Source\ProjectO\Variant_TwinStick\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectO\Variant_TwinStick\AI\TwinStickStateTreeUtility.h">
+      <Filter>Source\ProjectO\Variant_TwinStick\AI</Filter>
+    </ClInclude>
+    <Filter Include="Source\ProjectO\Variant_TwinStick\Gameplay">
+      <UniqueIdentifier>{E3A73B37-4202-3E7D-BDE6-BE2213C71643}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ProjectO\Variant_TwinStick\Gameplay\TwinStickAoEAttack.cpp">
+      <Filter>Source\ProjectO\Variant_TwinStick\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectO\Variant_TwinStick\Gameplay\TwinStickAoEAttack.h">
+      <Filter>Source\ProjectO\Variant_TwinStick\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectO\Variant_TwinStick\Gameplay\TwinStickPickup.cpp">
+      <Filter>Source\ProjectO\Variant_TwinStick\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectO\Variant_TwinStick\Gameplay\TwinStickPickup.h">
+      <Filter>Source\ProjectO\Variant_TwinStick\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectO\Variant_TwinStick\Gameplay\TwinStickProjectile.cpp">
+      <Filter>Source\ProjectO\Variant_TwinStick\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectO\Variant_TwinStick\Gameplay\TwinStickProjectile.h">
+      <Filter>Source\ProjectO\Variant_TwinStick\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectO\Variant_TwinStick\TwinStickCharacter.cpp">
+      <Filter>Source\ProjectO\Variant_TwinStick</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectO\Variant_TwinStick\TwinStickCharacter.h">
+      <Filter>Source\ProjectO\Variant_TwinStick</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectO\Variant_TwinStick\TwinStickGameMode.cpp">
+      <Filter>Source\ProjectO\Variant_TwinStick</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectO\Variant_TwinStick\TwinStickGameMode.h">
+      <Filter>Source\ProjectO\Variant_TwinStick</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectO\Variant_TwinStick\TwinStickPlayerController.cpp">
+      <Filter>Source\ProjectO\Variant_TwinStick</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectO\Variant_TwinStick\TwinStickPlayerController.h">
+      <Filter>Source\ProjectO\Variant_TwinStick</Filter>
+    </ClInclude>
+    <Filter Include="Source\ProjectO\Variant_TwinStick\UI">
+      <UniqueIdentifier>{E0822373-2486-3490-B0D1-0DEE4DCDDAFD}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ProjectO\Variant_TwinStick\UI\TwinStickUI.cpp">
+      <Filter>Source\ProjectO\Variant_TwinStick\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectO\Variant_TwinStick\UI\TwinStickUI.h">
+      <Filter>Source\ProjectO\Variant_TwinStick\UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
