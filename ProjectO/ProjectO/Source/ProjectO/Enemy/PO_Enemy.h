@@ -31,12 +31,15 @@ protected:
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
 	TObjectPtr<USphereComponent> DamageSphere;
 
-	
-
 	UPROPERTY(EditAnywhere, Category="Destruction")
 	TSubclassOf<APO_DeathEffect> DeathEffect;
-	
+
+	UPROPERTY(EditDefaultsOnly, Category = "HP")
 	float Health = 100.0f;
+	
+	// 이 적을 처치했을 때 플레이어가 얻을 경험치 양
+	UPROPERTY(EditDefaultsOnly, Category = "Reward")
+	float ExpReward = 20.f;
 
 public:
 

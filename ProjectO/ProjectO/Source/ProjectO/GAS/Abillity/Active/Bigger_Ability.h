@@ -21,9 +21,11 @@ public:
 	virtual void ActivateAbility(const FGameplayAbilitySpecHandle Handle, const FGameplayAbilityActorInfo* ActorInfo, const FGameplayAbilityActivationInfo ActivationInfo, const FGameplayEventData* TriggerEventData) override;
 
 protected:
-	// 스킬을 썼을 때 오브젝트가 얼마나 커질지 기획 수치화
 	
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Skill|Settings")
 	float SizeMultiplier = 2.0f;
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Skill|Settings")
+	float CoolDown = 2.0f;
 	
 };

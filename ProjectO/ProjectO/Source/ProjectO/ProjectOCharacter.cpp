@@ -410,12 +410,39 @@ void AProjectOCharacter::Skill1()
 
 void AProjectOCharacter::Skill2()
 {
-	UE_LOG(LogTemp, Log, TEXT("Skill2"));
+	UE_LOG(LogTemp, Warning, TEXT("[Input Debug] Skill2 Input Triggered!"));
 
-	
-	if (AbilitySystemComponent)
+	if (!AbilitySystemComponent)
 	{
-		AbilitySystemComponent->TryActivateAbilityByClass(AbilityArray[1]);
+		UE_LOG(LogTemp, Error, TEXT("ASC가 유효하지 않습니다!"));
+		return;
+	}
+
+	// 2. 안전장치: AbilityArray가 최소 2개 이상의 스킬을 담고 있는지 검사
+	if (AbilityArray.IsValidIndex(1))
+	{
+		if (TSubclassOf<UGameplayAbility> SkillClass = AbilityArray[1])
+		{
+			// TryActivateAbilityByClass는 성공 여부를 bool로 반환합니다.
+			bool bSuccess = AbilitySystemComponent->TryActivateAbilityByClass(SkillClass);
+            
+			if (bSuccess)
+			{
+				UE_LOG(LogTemp, Log, TEXT("Skill2 (Class: %s) 활성화 성공!"), *SkillClass->GetName());
+			}
+			else
+			{
+				UE_LOG(LogTemp, Warning, TEXT("Skill2 (Class: %s) 활성화 실패! (쿨타임 중이거나 활성화 조건 미달)"), *SkillClass->GetName());
+			}
+		}
+		else
+		{
+			UE_LOG(LogTemp, Error, TEXT("AbilityArray[1]에 등록된 클래스가 Null입니다!"));
+		}
+	}
+	else
+	{
+		UE_LOG(LogTemp, Error, TEXT("AbilityArray의 크기가 충분하지 않습니다! 현재 크기: %d"), AbilityArray.Num());
 	}
 }
 

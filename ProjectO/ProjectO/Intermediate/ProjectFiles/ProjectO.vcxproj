@@ -254,10 +254,15 @@
     <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini"/>
     <None Include="..\..\Config\DefaultEngine.ini"/>
     <None Include="..\..\Config\DefaultGame.ini"/>
+    <None Include="..\..\Config\DefaultGameplayTags.ini"/>
     <None Include="..\..\Config\DefaultInput.ini"/>
     <None Include="..\..\ProjectO.uproject"/>
     <None Include="..\..\Source\ProjectO.Target.cs"/>
     <None Include="..\..\Source\ProjectOEditor.Target.cs"/>
+    <ClCompile Include="..\..\Source\ProjectO\Data\ActiveSkillDataAsset.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectO\Data\ActiveSkillDataAsset.h"/>
     <ClCompile Include="..\..\Source\ProjectO\Enemy\PO_AIController.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
@@ -282,6 +287,22 @@
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <ClInclude Include="..\..\Source\ProjectO\GAS\Abillity\Active\Bigger_Ability.h"/>
+    <ClCompile Include="..\..\Source\ProjectO\GAS\Abillity\Active\Bouncy_Ability.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectO\GAS\Abillity\Active\Bouncy_Ability.h"/>
+    <ClCompile Include="..\..\Source\ProjectO\GAS\Abillity\Active\Metalic_Ability.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectO\GAS\Abillity\Active\Metalic_Ability.h"/>
+    <ClCompile Include="..\..\Source\ProjectO\GAS\Abillity\Active\SpawnObject_Ability.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectO\GAS\Abillity\Active\SpawnObject_Ability.h"/>
+    <ClCompile Include="..\..\Source\ProjectO\GAS\Abillity\Active\Strength_Ability.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectO\GAS\Abillity\Active\Strength_Ability.h" />
     <ClCompile Include="..\..\Source\ProjectO\GAS\Abillity\SkillGameplayAbility.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>

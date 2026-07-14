@@ -17,6 +17,9 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultGameplayTags.ini">
+      <Filter>Config</Filter>
+    </None>
     <None Include="..\..\Config\DefaultInput.ini">
       <Filter>Config</Filter>
     </None>
@@ -33,6 +36,15 @@
     <Filter Include="Source\ProjectO">
       <UniqueIdentifier>{BF68B1D7-527A-3BAC-91C1-DB228A0BE62B}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source\ProjectO\Data">
+      <UniqueIdentifier>{65DB4885-91F9-3D13-81A0-ADC852AC128E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ProjectO\Data\ActiveSkillDataAsset.cpp">
+      <Filter>Source\ProjectO\Data</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectO\Data\ActiveSkillDataAsset.h">
+      <Filter>Source\ProjectO\Data</Filter>
+    </ClInclude>
     <Filter Include="Source\ProjectO\Enemy">
       <UniqueIdentifier>{69CE665A-DD3E-372B-B6DF-5C228CA02044}</UniqueIdentifier>
     </Filter>
@@ -79,6 +91,30 @@
       <Filter>Source\ProjectO\GAS\Abillity\Active</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\ProjectO\GAS\Abillity\Active\Bigger_Ability.h">
+      <Filter>Source\ProjectO\GAS\Abillity\Active</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectO\GAS\Abillity\Active\Bouncy_Ability.cpp">
+      <Filter>Source\ProjectO\GAS\Abillity\Active</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectO\GAS\Abillity\Active\Bouncy_Ability.h">
+      <Filter>Source\ProjectO\GAS\Abillity\Active</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectO\GAS\Abillity\Active\Metalic_Ability.cpp">
+      <Filter>Source\ProjectO\GAS\Abillity\Active</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectO\GAS\Abillity\Active\Metalic_Ability.h">
+      <Filter>Source\ProjectO\GAS\Abillity\Active</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectO\GAS\Abillity\Active\SpawnObject_Ability.cpp">
+      <Filter>Source\ProjectO\GAS\Abillity\Active</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectO\GAS\Abillity\Active\SpawnObject_Ability.h">
+      <Filter>Source\ProjectO\GAS\Abillity\Active</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectO\GAS\Abillity\Active\Strength.cpp">
+      <Filter>Source\ProjectO\GAS\Abillity\Active</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectO\GAS\Abillity\Active\Strength.h">
       <Filter>Source\ProjectO\GAS\Abillity\Active</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\ProjectO\GAS\Abillity\SkillGameplayAbility.cpp">

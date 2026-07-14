@@ -74,6 +74,20 @@ struct Z_Construct_UClass_APO_Enemy_Statics
 		{ "Category", "Destruction" },
 		{ "ModuleRelativePath", "Enemy/PO_Enemy.h" },
 	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Health_MetaData[] = {
+		{ "Category", "HP" },
+		{ "ModuleRelativePath", "Enemy/PO_Enemy.h" },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ExpReward_MetaData[] = {
+		{ "Category", "Reward" },
+#if !UE_BUILD_SHIPPING
+		{ "Comment", "// \xec\x9d\xb4 \xec\xa0\x81\xec\x9d\x84 \xec\xb2\x98\xec\xb9\x98\xed\x96\x88\xec\x9d\x84 \xeb\x95\x8c \xed\x94\x8c\xeb\xa0\x88\xec\x9d\xb4\xec\x96\xb4\xea\xb0\x80 \xec\x96\xbb\xec\x9d\x84 \xea\xb2\xbd\xed\x97\x98\xec\xb9\x98 \xec\x96\x91\n" },
+#endif
+		{ "ModuleRelativePath", "Enemy/PO_Enemy.h" },
+#if !UE_BUILD_SHIPPING
+		{ "ToolTip", "\xec\x9d\xb4 \xec\xa0\x81\xec\x9d\x84 \xec\xb2\x98\xec\xb9\x98\xed\x96\x88\xec\x9d\x84 \xeb\x95\x8c \xed\x94\x8c\xeb\xa0\x88\xec\x9d\xb4\xec\x96\xb4\xea\xb0\x80 \xec\x96\xbb\xec\x9d\x84 \xea\xb2\xbd\xed\x97\x98\xec\xb9\x98 \xec\x96\x91" },
+#endif
+	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bIsDead_MetaData[] = {
 		{ "Category", "PO_Enemy" },
 		{ "ModuleRelativePath", "Enemy/PO_Enemy.h" },
@@ -84,6 +98,8 @@ struct Z_Construct_UClass_APO_Enemy_Statics
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_MeshComponent;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_DamageSphere;
 	static const UECodeGen_Private::FClassPropertyParams NewProp_DeathEffect;
+	static const UECodeGen_Private::FFloatPropertyParams NewProp_Health;
+	static const UECodeGen_Private::FFloatPropertyParams NewProp_ExpReward;
 	static void NewProp_bIsDead_SetBit(void* Obj);
 	static const UECodeGen_Private::FBoolPropertyParams NewProp_bIsDead;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
@@ -99,6 +115,8 @@ struct Z_Construct_UClass_APO_Enemy_Statics
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APO_Enemy_Statics::NewProp_MeshComponent = { "MeshComponent", nullptr, (EPropertyFlags)0x01240800000a001d, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(APO_Enemy, MeshComponent), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_MeshComponent_MetaData), NewProp_MeshComponent_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APO_Enemy_Statics::NewProp_DamageSphere = { "DamageSphere", nullptr, (EPropertyFlags)0x01240800000a000d, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(APO_Enemy, DamageSphere), Z_Construct_UClass_USphereComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_DamageSphere_MetaData), NewProp_DamageSphere_MetaData) };
 const UECodeGen_Private::FClassPropertyParams Z_Construct_UClass_APO_Enemy_Statics::NewProp_DeathEffect = { "DeathEffect", nullptr, (EPropertyFlags)0x0024080000000001, UECodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(APO_Enemy, DeathEffect), Z_Construct_UClass_UClass_NoRegister, Z_Construct_UClass_APO_DeathEffect_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_DeathEffect_MetaData), NewProp_DeathEffect_MetaData) };
+const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_APO_Enemy_Statics::NewProp_Health = { "Health", nullptr, (EPropertyFlags)0x0020080000010001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(APO_Enemy, Health), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Health_MetaData), NewProp_Health_MetaData) };
+const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_APO_Enemy_Statics::NewProp_ExpReward = { "ExpReward", nullptr, (EPropertyFlags)0x0020080000010001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(APO_Enemy, ExpReward), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_ExpReward_MetaData), NewProp_ExpReward_MetaData) };
 void Z_Construct_UClass_APO_Enemy_Statics::NewProp_bIsDead_SetBit(void* Obj)
 {
 	((APO_Enemy*)Obj)->bIsDead = 1;
@@ -108,6 +126,8 @@ const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_APO_Enemy
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APO_Enemy_Statics::NewProp_MeshComponent,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APO_Enemy_Statics::NewProp_DamageSphere,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APO_Enemy_Statics::NewProp_DeathEffect,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APO_Enemy_Statics::NewProp_Health,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APO_Enemy_Statics::NewProp_ExpReward,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APO_Enemy_Statics::NewProp_bIsDead,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_APO_Enemy_Statics::PropPointers) < 2048);
@@ -151,10 +171,10 @@ APO_Enemy::~APO_Enemy() {}
 struct Z_CompiledInDeferFile_FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_Enemy_PO_Enemy_h__Script_ProjectO_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_APO_Enemy, APO_Enemy::StaticClass, TEXT("APO_Enemy"), &Z_Registration_Info_UClass_APO_Enemy, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(APO_Enemy), 3666780155U) },
+		{ Z_Construct_UClass_APO_Enemy, APO_Enemy::StaticClass, TEXT("APO_Enemy"), &Z_Registration_Info_UClass_APO_Enemy, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(APO_Enemy), 680604490U) },
 	};
 }; // Z_CompiledInDeferFile_FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_Enemy_PO_Enemy_h__Script_ProjectO_Statics 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_Enemy_PO_Enemy_h__Script_ProjectO_4182109593{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_Enemy_PO_Enemy_h__Script_ProjectO_530096314{
 	TEXT("/Script/ProjectO"),
 	Z_CompiledInDeferFile_FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_Enemy_PO_Enemy_h__Script_ProjectO_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_Enemy_PO_Enemy_h__Script_ProjectO_Statics::ClassInfo),
 	nullptr, 0,

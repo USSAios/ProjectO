@@ -60,18 +60,17 @@ struct Z_Construct_UClass_UBigger_Ability_Statics
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_SizeMultiplier_MetaData[] = {
 		{ "Category", "Skill|Settings" },
-#if !UE_BUILD_SHIPPING
-		{ "Comment", "// \xec\x8a\xa4\xed\x82\xac\xec\x9d\x84 \xec\x8d\xbc\xec\x9d\x84 \xeb\x95\x8c \xec\x98\xa4\xeb\xb8\x8c\xec\xa0\x9d\xed\x8a\xb8\xea\xb0\x80 \xec\x96\xbc\xeb\xa7\x88\xeb\x82\x98 \xec\xbb\xa4\xec\xa7\x88\xec\xa7\x80 \xea\xb8\xb0\xed\x9a\x8d \xec\x88\x98\xec\xb9\x98\xed\x99\x94\n" },
-#endif
 		{ "ModuleRelativePath", "GAS/Abillity/Active/Bigger_Ability.h" },
-#if !UE_BUILD_SHIPPING
-		{ "ToolTip", "\xec\x8a\xa4\xed\x82\xac\xec\x9d\x84 \xec\x8d\xbc\xec\x9d\x84 \xeb\x95\x8c \xec\x98\xa4\xeb\xb8\x8c\xec\xa0\x9d\xed\x8a\xb8\xea\xb0\x80 \xec\x96\xbc\xeb\xa7\x88\xeb\x82\x98 \xec\xbb\xa4\xec\xa7\x88\xec\xa7\x80 \xea\xb8\xb0\xed\x9a\x8d \xec\x88\x98\xec\xb9\x98\xed\x99\x94" },
-#endif
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_CoolDown_MetaData[] = {
+		{ "Category", "Skill|Settings" },
+		{ "ModuleRelativePath", "GAS/Abillity/Active/Bigger_Ability.h" },
 	};
 #endif // WITH_METADATA
 
 // ********** Begin Class UBigger_Ability constinit property declarations **************************
 	static const UECodeGen_Private::FFloatPropertyParams NewProp_SizeMultiplier;
+	static const UECodeGen_Private::FFloatPropertyParams NewProp_CoolDown;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 // ********** End Class UBigger_Ability constinit property declarations ****************************
 	static UObject* (*const DependentSingletons[])();
@@ -83,8 +82,10 @@ struct Z_Construct_UClass_UBigger_Ability_Statics
 
 // ********** Begin Class UBigger_Ability Property Definitions *************************************
 const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UBigger_Ability_Statics::NewProp_SizeMultiplier = { "SizeMultiplier", nullptr, (EPropertyFlags)0x0020080000010005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UBigger_Ability, SizeMultiplier), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_SizeMultiplier_MetaData), NewProp_SizeMultiplier_MetaData) };
+const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UBigger_Ability_Statics::NewProp_CoolDown = { "CoolDown", nullptr, (EPropertyFlags)0x0020080000010005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UBigger_Ability, CoolDown), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_CoolDown_MetaData), NewProp_CoolDown_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UBigger_Ability_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UBigger_Ability_Statics::NewProp_SizeMultiplier,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UBigger_Ability_Statics::NewProp_CoolDown,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UBigger_Ability_Statics::PropPointers) < 2048);
 // ********** End Class UBigger_Ability Property Definitions ***************************************
@@ -127,10 +128,10 @@ UBigger_Ability::~UBigger_Ability() {}
 struct Z_CompiledInDeferFile_FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_GAS_Abillity_Active_Bigger_Ability_h__Script_ProjectO_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UBigger_Ability, UBigger_Ability::StaticClass, TEXT("UBigger_Ability"), &Z_Registration_Info_UClass_UBigger_Ability, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UBigger_Ability), 3915891692U) },
+		{ Z_Construct_UClass_UBigger_Ability, UBigger_Ability::StaticClass, TEXT("UBigger_Ability"), &Z_Registration_Info_UClass_UBigger_Ability, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UBigger_Ability), 4025731226U) },
 	};
 }; // Z_CompiledInDeferFile_FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_GAS_Abillity_Active_Bigger_Ability_h__Script_ProjectO_Statics 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_GAS_Abillity_Active_Bigger_Ability_h__Script_ProjectO_1172279292{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_GAS_Abillity_Active_Bigger_Ability_h__Script_ProjectO_3199779663{
 	TEXT("/Script/ProjectO"),
 	Z_CompiledInDeferFile_FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_GAS_Abillity_Active_Bigger_Ability_h__Script_ProjectO_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_GAS_Abillity_Active_Bigger_Ability_h__Script_ProjectO_Statics::ClassInfo),
 	nullptr, 0,

@@ -24,7 +24,9 @@ public class ProjectO : ModuleRules
 			"GeometryCollectionEngine",
 			"GameplayAbilities", 
 			"GameplayTags",
-			"GameplayTasks"
+			"GameplayTasks",
+			"PhysicsCore"
+
 		});
 
 		PrivateDependencyModuleNames.AddRange(new string[]

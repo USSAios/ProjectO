@@ -19,7 +19,7 @@
                                     "uri": "file:///E:/Git/ProjectO/ProjectO/ProjectO/Source/ProjectO/Enemy/PO_Enemy.h"
                                 },
                                 "region": {
-                                    "startLine": 56,
+                                    "startLine": 59,
                                     "startColumn": 7,
                                     "snippet": {
                                         "text": "\tvoid TakeDamage(float Damage);"

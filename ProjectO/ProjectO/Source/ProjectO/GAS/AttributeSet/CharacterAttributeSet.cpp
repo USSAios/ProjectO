@@ -20,16 +20,11 @@ UCharacterAttributeSet::UCharacterAttributeSet()
 
 void UCharacterAttributeSet::PostAttributeChange(const FGameplayAttribute& Attribute, float OldValue, float NewValue)
 {
-	Super::PostAttributeChange(Attribute, OldValue, NewValue);
-
-	AProjectOCharacter* TargetCharacter = Cast<AProjectOCharacter>(GetOwningActor())
-	
-	AProjectOCharacter* TargetCharacter = Cast<AProjectOCharacter>(GetOwningActor());
+    Super::PostAttributeChange(Attribute, OldValue, NewValue);
+    
+    AProjectOCharacter* TargetCharacter = Cast<AProjectOCharacter>(GetOwningActor());
     if (!TargetCharacter) return;
-
-    // ─────────────────────────────────────────────────────────────────
-    // 💡 IF-ELSE IF 구조로 각 요소별 변경 사항 처리
-    // ─────────────────────────────────────────────────────────────────
+    
 
     // 1. 현재 체력이 변경된 경우
     if (Attribute == GetHealthAttribute())
@@ -79,22 +74,56 @@ void UCharacterAttributeSet::PostAttributeChange(const FGameplayAttribute& Attri
     // 6. 현재 경험치가 변경된 경우
     else if (Attribute == GetCurrentExpAttribute())
     {
-        // 경험치 획득 로그 및 UI 연동 위치
-        UE_LOG(LogTemp, Log, TEXT("Exp Changed: %f / %f"), NewValue, GetMaxExp());
-    }
+        
+        float CurrentMaxExp = GetMaxExp();
+        
+        if (NewValue >= CurrentMaxExp && CurrentMaxExp > 0.f)
+        {
+            // 1. 레벨 계산 (현재 레벨 + 1)
+            float CurrentLevel = GetLevel();
+            float NewLevel = CurrentLevel + 1.f;
+            
+            // 2. 남은 경험치 계산 (오버플로우된 경험치를 이월하기 위함)
+            // 예: Max가 100인데 120을 얻었다면, 레벨업 후 20이 남도록 처리
+            float RemainderExp = NewValue - CurrentMaxExp;
+            if (RemainderExp < 0.f) RemainderExp = 0.f;
 
-    // 7. 최대 경험치(요구량)가 변경된 경우
-    else if (Attribute == GetMaxExpAttribute())
-    {
-        UE_LOG(LogTemp, Log, TEXT("MaxExp Changed: %f"), NewValue);
-    }
+            // 3. 다음 레벨을 위한 새로운 최대 경험치 요구량 설정 (기획에 맞게 수정 가능)
+            // 여기서는 매 레벨마다 필요 경험치가 1.5배씩 증가하도록 예시를 들었습니다.
+            float NewMaxExp = CurrentMaxExp * 1.5f;
 
-    // 8. 체력 재생 수치가 변경된 경우
-    else if (Attribute == GetHealthRegenAttribute())
-    {
-        // 초당 체력 회복 버프 등이 적용되었을 때의 처리
-        UE_LOG(LogTemp, Log, TEXT("HealthRegen Changed: %f"), NewValue);
-    }
+            // ⚠️ 주의: PostAttributeChange 내부에서 다시 자신의 어트리뷰트를 수정하므로 
+            // 내부적으로 무한 루프가 돌지 않도록 SetNumericAttributeBase를 안전하게 순서대로 실행합니다.
+            
+            // 레벨 상승 적용
+            SetLevel(NewLevel);
+            
+            // 최대 경험치 요구량 갱신
+            SetMaxExp(NewMaxExp);
+            
+            // 현재 경험치를 남은 이월 경험치로 초기화 (또는 완전히 0으로 하려면 0.f 대입)
+            SetCurrentExp(RemainderExp);
+
+            UE_LOG(LogTemp, Warning, TEXT("★ LEVEL UP! ★ Level: %f -> %f (Next MaxExp: %f)"), CurrentLevel, NewLevel, NewMaxExp);
+            
+            // (선택) 만약 캐릭터 블루프린트나 UI에 레벨업 이펙트를 띄우고 싶다면 
+            // 여기에 TargetCharacter->OnLevelUp.Broadcast(NewLevel); 같은 델리게이트를 추가하시면 됩니다.
+        
+        }
+
+        // 7. 최대 경험치(요구량)가 변경된 경우
+        else if (Attribute == GetMaxExpAttribute())
+        {
+            UE_LOG(LogTemp, Log, TEXT("MaxExp Changed: %f"), NewValue);
+        }
+
+        // 8. 체력 재생 수치가 변경된 경우
+        else if (Attribute == GetHealthRegenAttribute())
+        {
+            // 초당 체력 회복 버프 등이 적용되었을 때의 처리
+            UE_LOG(LogTemp, Log, TEXT("HealthRegen Changed: %f"), NewValue);
+        }
 
 	
+    }
 }

@@ -20,7 +20,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 struct Z_Construct_UClass_UActiveSkillGameplayAbility_Statics;
 PROJECTO_API UClass* Z_Construct_UClass_UActiveSkillGameplayAbility_NoRegister();
 
-#define FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_GAS_Abillity_Active_ActiveSkillGameplayAbility_h_15_INCLASS_NO_PURE_DECLS \
+#define FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_GAS_Abillity_Active_ActiveSkillGameplayAbility_h_17_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUActiveSkillGameplayAbility(); \
 	friend struct ::Z_Construct_UClass_UActiveSkillGameplayAbility_Statics; \
@@ -31,24 +31,22 @@ public: \
 	DECLARE_SERIALIZER(UActiveSkillGameplayAbility)
 
 
-#define FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_GAS_Abillity_Active_ActiveSkillGameplayAbility_h_15_ENHANCED_CONSTRUCTORS \
-	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API UActiveSkillGameplayAbility(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+#define FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_GAS_Abillity_Active_ActiveSkillGameplayAbility_h_17_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	UActiveSkillGameplayAbility(UActiveSkillGameplayAbility&&) = delete; \
 	UActiveSkillGameplayAbility(const UActiveSkillGameplayAbility&) = delete; \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UActiveSkillGameplayAbility); \
 	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UActiveSkillGameplayAbility); \
-	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UActiveSkillGameplayAbility) \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UActiveSkillGameplayAbility) \
 	NO_API virtual ~UActiveSkillGameplayAbility();
 
 
-#define FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_GAS_Abillity_Active_ActiveSkillGameplayAbility_h_12_PROLOG
-#define FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_GAS_Abillity_Active_ActiveSkillGameplayAbility_h_15_GENERATED_BODY \
+#define FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_GAS_Abillity_Active_ActiveSkillGameplayAbility_h_14_PROLOG
+#define FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_GAS_Abillity_Active_ActiveSkillGameplayAbility_h_17_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_GAS_Abillity_Active_ActiveSkillGameplayAbility_h_15_INCLASS_NO_PURE_DECLS \
-	FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_GAS_Abillity_Active_ActiveSkillGameplayAbility_h_15_ENHANCED_CONSTRUCTORS \
+	FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_GAS_Abillity_Active_ActiveSkillGameplayAbility_h_17_INCLASS_NO_PURE_DECLS \
+	FID_Git_ProjectO_ProjectO_ProjectO_Source_ProjectO_GAS_Abillity_Active_ActiveSkillGameplayAbility_h_17_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

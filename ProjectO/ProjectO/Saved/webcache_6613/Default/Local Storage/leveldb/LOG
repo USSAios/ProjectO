@@ -1,5 +1,6 @@
-2026/07/13-14:23:11.778 62fc Reusing MANIFEST E:\Git\ProjectO\ProjectO\ProjectO\Saved\webcache_6613\Default\Local Storage\leveldb/MANIFEST-000001
-2026/07/13-14:23:11.787 62fc Recovering log #24
-2026/07/13-14:23:11.788 62fc Level-0 table #27: started
-2026/07/13-14:23:11.799 62fc Level-0 table #27: 67601 bytes OK
-2026/07/13-14:23:11.805 62fc Delete type=0 #24
+2026/07/14-19:25:38.196 490c Reusing MANIFEST E:\Git\ProjectO\ProjectO\ProjectO\Saved\webcache_6613\Default\Local Storage\leveldb/MANIFEST-000001
+2026/07/14-19:25:38.204 490c Recovering log #31
+2026/07/14-19:25:38.211 490c Reusing old log E:\Git\ProjectO\ProjectO\ProjectO\Saved\webcache_6613\Default\Local Storage\leveldb/000031.log 
+2026/07/14-20:02:04.840 3ef8 Level-0 table #34: started
+2026/07/14-20:02:04.845 3ef8 Level-0 table #34: 75263 bytes OK
+2026/07/14-20:02:04.847 3ef8 Delete type=0 #31
